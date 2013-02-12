@@ -3735,7 +3735,7 @@ function AgendaEventRenderer() {
 			col = stackSegs(sliceSegs(events, visEventEnds, d, addMinutes(cloneDate(d), maxMinute-minMinute)));
 			countForwardSegs(col);
 			for (j=0; j<col.length; j++) {
-				level = col[j];
+				level = col[j];                 //a slice of a column; level.length - how many simulataneous events are there
 				for (k=0; k<level.length; k++) {
 					seg = level[k];
 					seg.col = i;
@@ -3803,7 +3803,7 @@ function AgendaEventRenderer() {
 			forward = seg.forward || 0;
 			leftmost = colContentLeft(colI*dis + dit);
 			availWidth = colContentRight(colI*dis + dit) - leftmost;
-			availWidth = Math.min(availWidth-6, availWidth*.95); // TODO: move this to CSS
+			//availWidth = Math.min(availWidth-6, availWidth*.95); // CHANGED: Pointless tinkering
 			if (levelI) {
 				// indented and thin
 				outerWidth = availWidth / (levelI + forward + 1);
