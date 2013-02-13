@@ -1687,6 +1687,12 @@ function sliceSegs(events, visEventEnds, start, end) {
 
 
 // event rendering calculation utilities
+
+function randomColor() {
+    var colors = ["#BBFF3D", "#FF755D", "#44FFCC", "#B075FF", "#36c"];
+    return colors[Math.floor(Math.random()*colors.length)];
+}
+
 function stackSegs(segs) {
 	var levels = [],
 		i, len = segs.length, seg,
@@ -3830,6 +3836,7 @@ function AgendaEventRenderer() {
 			seg.left = left;
 			seg.outerWidth = outerWidth;
 			seg.outerHeight = bottom - top;
+            seg.color = randomColor();
 			html += slotSegHtml(event, seg);
 		}
 		slotSegmentContainer[0].innerHTML = html; // faster than html()
@@ -3909,6 +3916,11 @@ function AgendaEventRenderer() {
 		var skinCss = getSkinCss(event, opt);
 		var skinCssAttr = (skinCss ? " style='" + skinCss + "'" : '');
 		var classes = ['fc-event', 'fc-event-skin', 'fc-event-vert'];
+        var eOpacity = 1.0;
+
+        if(opt('autoOpacity')) {
+            eOpacity = .2 + event.importance / 100;
+        }
 		if (isEventDraggable(event)) {
 			classes.push('fc-event-draggable');
 		}
@@ -3932,9 +3944,10 @@ function AgendaEventRenderer() {
 		}
 		html +=
 			" class='" + classes.join(' ') + "'" +
-			" style='position:absolute;z-index:8;top:" + seg.top + "px;left:" + seg.left + "px;" + skinCss
-            + (opt('autoOpacity') ? "" : "") + "'" +
-			">" +
+			" style='position:absolute;z-index:8;top:" + seg.top + "px;left:" + seg.left + "px;"
+            + (opt('autoOpacity') ? "opacity:" + eOpacity + ";" : "")
+            + (opt('autoColor') ? "border-color:" + seg.color + ";background-color:" + seg.color + ";" : "") + skinCss
+            + "'" + ">" +
 			"<div class='fc-event-inner fc-event-skin'" + skinCssAttr + ">" +
 			"<div class='fc-event-head fc-event-skin'" + skinCssAttr + ">" +
 			"<div class='fc-event-time'>" +
