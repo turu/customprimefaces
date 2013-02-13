@@ -284,14 +284,8 @@ a.fc-event {
 }
 
 .fc-event-impossible {
-    border-style: dashed;
-    border-bottom-color: #ff0000;
-    border-bottom-width: medium;
-    border-top-color: #ff0000;
-    border-top-width: medium;
-    border-color: #ff0000;
-    border-width: medium;
     border-radius: 5px;
+    border: red solid 2px !important;
 }
 
 .fc-event-inner {

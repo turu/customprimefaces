@@ -20,13 +20,13 @@
     <file path="/EnrollSchedule.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360630434570" ignored="false" />
     <file path="/Dummy.txt" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360712249281" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/lib/org/primefaces/primefaces/3.5/primefaces-3.5.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360631688118" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360778540102" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782721576" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/preferences-management/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782118111" ignored="false" />
     <file path="/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782118111" ignored="false" />
     <file path="/a.dummy" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360779991202" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782466185" ignored="false" />
     <file path="/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782465858" ignored="false" />
-    <file path="/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782592578" ignored="false" />
+    <file path="/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360789612582" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5b/primefaces-3.5b.jar!/META-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360674295537" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5b/primefaces-3.5b.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360674295537" ignored="false" />
     <file path="/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360777666263" ignored="false" />
@@ -38,7 +38,7 @@
     <file path="/EnrollScheduleEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360718147126" ignored="false" />
     <file path="/DefaultEnrollScheduleModel.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360753744963" ignored="false" />
     <file path="/DefaultEnrollScheduleEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360718619572" ignored="false" />
-    <file path="/enrollschedule.css" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782569304" ignored="false" />
+    <file path="/enrollschedule.css" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360789207431" ignored="false" />
     <file path="/EnrollScheduleTemplate.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360760401720" ignored="false" />
     <file path="/EnrollScheduleEntryMoveEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360760082601" ignored="false" />
     <file path="/EnrollScheduleEntryResizeEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360760323551" ignored="false" />
@@ -103,7 +103,7 @@
       <file leaf-file-name="enrollschedule.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1930" column="19" selection-start="43831" selection-end="43841" vertical-scroll-proportion="6.709677">
+            <state line="1930" column="19" selection-start="43831" selection-end="43841" vertical-scroll-proportion="16.870968">
               <folding>
                 <marker date="1360777694299" expanded="false" signature="5915:5932" placeholder="..." />
                 <marker date="1360777694299" expanded="false" signature="15942:15952" placeholder="..." />
@@ -127,10 +127,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enrollschedule.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="enrollschedule.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="292" column="24" selection-start="4905" selection-end="4905" vertical-scroll-proportion="-5.483871">
+            <state line="285" column="22" selection-start="4699" selection-end="4699" vertical-scroll-proportion="0.5346535">
               <folding />
             </state>
           </provider>
@@ -145,10 +145,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="32" selection-start="509" selection-end="509" vertical-scroll-proportion="0.3125">
+            <state line="8" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -605,7 +605,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6393728" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36062717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36062717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -750,14 +750,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="43" selection-start="3459" selection-end="3459" vertical-scroll-proportion="0.4659091">
           <folding>
-            <element signature="e#0#7205#0" expanded="true" />
+            <element signature="e#0#7205#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="46" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1930" column="19" selection-start="43831" selection-end="43841" vertical-scroll-proportion="6.709677">
+        <state line="1930" column="19" selection-start="43831" selection-end="43841" vertical-scroll-proportion="16.870968">
           <folding>
             <marker date="1360777694299" expanded="false" signature="5915:5932" placeholder="..." />
             <marker date="1360777694299" expanded="false" signature="15942:15952" placeholder="..." />
@@ -780,23 +787,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="46" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0">
+        <state line="8" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="292" column="24" selection-start="4905" selection-end="4905" vertical-scroll-proportion="-5.483871">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="32" selection-start="509" selection-end="509" vertical-scroll-proportion="0.3125">
+        <state line="285" column="22" selection-start="4699" selection-end="4699" vertical-scroll-proportion="0.5346535">
           <folding />
         </state>
       </provider>
