@@ -30,20 +30,6 @@ var defaults = {
 	},
 
     eventRender: function (event, element, view) {
-        if (view.name == "basicWeek" || view.name == "agendaWeek") {
-            alert("element offset.left=" + element.offset().left + " offset.top=" +
-                element.offset().top + " element.width=" + element.width() + " element.height=" +
-                element.height());
-
-            var events = element.parent().children();
-
-            if (element.index() < events.size() - 1) {
-                var nextElement = events.eq(element.index() + 1);
-                //if (nextElement.offset())
-                var nextEventLeft = element.offset().left + element.width() + 1;
-                //element.parent().children().eq(element.index()+1).css('left',nextEventLeft);
-            }
-        }
     },
 
 	weekends: true,

@@ -131,8 +131,8 @@
             <name>slotMinutes</name>
             <required>false</required>
             <type>java.lang.Integer</type>
-            <defaultValue>30</defaultValue>
-            <description>Interval in minutes in an hour to create a slot. Default is 30.</description>
+            <defaultValue>15</defaultValue>
+            <description>Interval in minutes in an hour to create a slot. Default is 15.</description>
         </attribute>
         <attribute>
             <name>firstHour</name>
@@ -170,6 +170,13 @@
             <required>false</required>
             <type>java.lang.Object</type>
             <description>String or a java.util.TimeZone instance to specify the timezone used for date conversion, defaults to TimeZone.getDefault()</description>
+        </attribute>
+        <attribute>
+            <name>periodic</name>
+            <required>false</required>
+            <type>java.lang.Boolean</type>
+            <defaultValue>true</defaultValue>
+            <description>Determines if the ongoing enrollment is periodic or a single event (such as an exam). Defaults to true.</description>
         </attribute>
     </attributes>
     <resources>
