@@ -82,12 +82,12 @@ public class EnrollScheduleRenderer extends CoreRenderer {
                 writer.write(",\"editable\":" + event.isEditable());
                 if(event.getStyleClass() != null)
                     writer.write(",\"className\":\"" + event.getStyleClass() + "\"");
-                writer.write(",\"importance\":\"" + event.getImportance() + "\"");
+                /*writer.write(",\"importance\":\"" + event.getImportance() + "\"");
                 writer.write(",\"points\":\"" + event.getPoints() + "\"");
                 writer.write(",\"possible\":\"" + event.isPossible() + "\"");
                 writer.write(",\"teacher\":\"" + event.getTeacher() + "\"");
                 if(event.getPlace() != "" && event.getPlace() != null)
-                    writer.write(",\"place\":\"" + event.getPlace() + "\"");
+                    writer.write(",\"place\":\"" + event.getPlace() + "\""); */
 
                 writer.write("}");
 
