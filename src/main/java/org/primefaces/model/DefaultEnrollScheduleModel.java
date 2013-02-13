@@ -1,5 +1,6 @@
 package org.primefaces.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -7,7 +8,7 @@ import java.util.UUID;
 /**
  * Author: Piotr Turek
  */
-public class DefaultEnrollScheduleModel implements EnrollScheduleModel {
+public class DefaultEnrollScheduleModel implements EnrollScheduleModel, Serializable {
 
     private List<EnrollScheduleEvent> events;
 
