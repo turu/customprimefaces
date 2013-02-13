@@ -1951,13 +1951,8 @@ function getSkinCss(event, opt) {
 		event.textColor ||
 		source.textColor ||
 		opt('eventTextColor');
-    var opacity = .1 + event.importance / 100;
-    if(opacity > 1.) opacity = 1.;
+    var opacity = .5 + .5*(event.importance / 100);     //minimum opacity is 0.5, maximum 1
     console.log("opacity=" + opacity + "\n" + event.possible + " " + opt('dragOpacity'));
-    if (event.possible == "false") {
-        classes.push('fc-event-impossible');
-        console.log("event impossible\n");
-    }
 
 	var statements = [];
 	if (backgroundColor) {
@@ -1971,7 +1966,7 @@ function getSkinCss(event, opt) {
 	}
     if (opt('autoOpacity')) {
         console.log("autoOpacity is on\n");
-        statements.push('opacity:' + opt('dragOpacity'));
+        statements.push('opacity:' + opacity);
         //statements.push('filter: alpha(opacity=' + parseInt(event.importance) + 10 + ')');    //for IE
     }
 	return statements.join(';');
@@ -3834,26 +3829,26 @@ function AgendaEventRenderer() {
 			//availWidth = Math.min(availWidth-6, availWidth*.95); // CHANGED: Pointless tinkering
 			if (levelI) {
 				// indented and thin
-				outerWidth = availWidth / (levelI + forward + 1);
+				outerWidth = availWidth / (levelI + forward + 1) - 2;
 			}else{
 				if (forward) {
 					// moderately wide, aligned left still
 					//outerWidth = ((availWidth / (forward + 1)) - (12/2)) * 2; // 12 is the predicted width of resizer =
                     //^^^ CHANGED to ...
-                    outerWidth = availWidth / (levelI + forward + 1);
+                    outerWidth = availWidth / (levelI + forward + 1) - 2;
 				}else{
 					// can be entire width, aligned left
-					outerWidth = availWidth;
+					outerWidth = availWidth - 2;
 				}
 			}
 			left = leftmost +                                  // leftmost possible
-				(availWidth / (levelI + forward + 1) * levelI) // indentation
+				((availWidth / (levelI + forward + 1)) * levelI) // indentation
 				* dis + (rtl ? availWidth - outerWidth : 0);   // rtl
 			seg.top = top;
 			seg.left = left;
 			seg.outerWidth = outerWidth;
 			seg.outerHeight = bottom - top;
-            seg.color = randomColor();
+            //seg.color = randomColor(); TODO: implement autoColor
 			html += slotSegHtml(event, seg);
 		}
 		slotSegmentContainer[0].innerHTML = html; // faster than html()

@@ -284,9 +284,15 @@ a.fc-event {
 }
 
 .fc-event-impossible {
+    border-style: dashed;
+    border-bottom-color: #ff0000;
+    border-bottom-width: 2px;
+    border-top-color: #ff0000;
+    border-top-width: 2px;
     border-color: #ff0000;
     border-width: 2px;
-    border-style: solid;
+    border-spacing: 2px;
+    border-radius: 5px;
 }
 
 .fc-event-inner {
@@ -308,6 +314,7 @@ a.fc-event {
     font-family: helvetica;
     font-weight: bold;
     text-align: center;
+    vertical-align: bottom;
 }
 
 .fc .ui-resizable-handle { /*** TODO: don't use ui-resizable anymore, change class ***/
