@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="73af3fef-5ae1-45b3-ab22-041e78a6693b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleModel.java" afterPath="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleModel.java" afterPath="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleModel.java" />
     </list>
     <ignored path="primefaces.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enrollschedule.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="enrollschedule.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3919" column="0" selection-start="91933" selection-end="91933" vertical-scroll-proportion="-0.11174242">
+            <state line="3919" column="0" selection-start="91933" selection-end="91933" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1360727087934" expanded="false" signature="5821:5838" placeholder="..." />
                 <marker date="1360727087934" expanded="false" signature="15848:15858" placeholder="..." />
@@ -136,7 +137,7 @@
       <file leaf-file-name="enrollschedule.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="280" column="0" selection-start="4507" selection-end="4507" vertical-scroll-proportion="-7.2580647">
+            <state line="280" column="0" selection-start="4507" selection-end="4507" vertical-scroll-proportion="-5.806452">
               <folding />
             </state>
           </provider>
@@ -151,10 +152,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="93" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+            <state line="17" column="93" selection-start="788" selection-end="788" vertical-scroll-proportion="0.48295453">
               <folding />
             </state>
           </provider>
@@ -184,14 +185,14 @@
         <option value="$PROJECT_DIR$/src/main/java-templates/org/primefaces/component/enrollschedule/EnrollScheduleTemplate.java" />
         <option value="$PROJECT_DIR$/target/generated-sources/maven-jsf-plugin/org/primefaces/component/enrollschedule/EnrollSchedule.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java" />
         <option value="$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" />
+        <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleModel.java" />
       </list>
     </option>
   </component>
@@ -535,6 +536,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -847,29 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="71" selection-start="208" selection-end="208" vertical-scroll-proportion="0.2631579">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="32" selection-start="466" selection-end="466" vertical-scroll-proportion="0.61403507">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="93" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/ScheduleEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="32" selection-start="760" selection-end="760" vertical-scroll-proportion="0.27726433">
@@ -909,16 +943,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="0" selection-start="4507" selection-end="4507" vertical-scroll-proportion="-7.2580647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3919" column="0" selection-start="91933" selection-end="91933" vertical-scroll-proportion="-0.11174242">
+        <state line="3919" column="0" selection-start="91933" selection-end="91933" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1360727087934" expanded="false" signature="5821:5838" placeholder="..." />
             <marker date="1360727087934" expanded="false" signature="15848:15858" placeholder="..." />
@@ -938,6 +965,36 @@
             <marker date="1360727087934" expanded="false" signature="70939:70956" placeholder="..." />
             <marker date="1360727087934" expanded="false" signature="123254:123281" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="280" column="0" selection-start="4507" selection-end="4507" vertical-scroll-proportion="-5.806452">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="31" selection-start="432" selection-end="432" vertical-scroll-proportion="0.5555556">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="1518" selection-end="1518" vertical-scroll-proportion="0.76608187">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="93" selection-start="788" selection-end="788" vertical-scroll-proportion="0.48295453">
+          <folding />
         </state>
       </provider>
     </entry>

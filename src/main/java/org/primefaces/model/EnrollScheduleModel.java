@@ -19,8 +19,6 @@ public interface EnrollScheduleModel {
 
     public int getEventCount();
 
-    public boolean isPeriodic();
-
     public void clear();
 
 }

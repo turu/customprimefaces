@@ -11,8 +11,6 @@ public class DefaultEnrollScheduleModel implements EnrollScheduleModel {
 
     private List<EnrollScheduleEvent> events;
 
-    private boolean isPeriodic = true;
-
     public DefaultEnrollScheduleModel() {
         events = new ArrayList<EnrollScheduleEvent>();
     }
@@ -68,11 +66,4 @@ public class DefaultEnrollScheduleModel implements EnrollScheduleModel {
         events = new ArrayList<EnrollScheduleEvent>();
     }
 
-    public boolean isPeriodic() {
-        return isPeriodic;
-    }
-
-    public void setPeriodic(boolean periodic) {
-        isPeriodic = periodic;
-    }
 }
