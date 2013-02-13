@@ -1953,8 +1953,8 @@ function getSkinCss(event, opt) {
 		opt('eventTextColor');
     var opacity = .1 + event.importance / 100;
     if(opacity > 1.) opacity = 1.;
-    console.log("opacity=" + opacity + "\n" + event.possible);
-    if (!event.possible) {
+    console.log("opacity=" + opacity + "\n" + event.possible + " " + opt('dragOpacity'));
+    if (event.possible == "false") {
         classes.push('fc-event-impossible');
         console.log("event impossible\n");
     }
@@ -1971,8 +1971,8 @@ function getSkinCss(event, opt) {
 	}
     if (opt('autoOpacity')) {
         console.log("autoOpacity is on\n");
-        statements.push('opacity:' + opacity);
-        statements.push('filter: alpha(opacity=' + parseInt(event.importance) + 10 + ')');    //for IE
+        statements.push('opacity:' + opt('dragOpacity'));
+        //statements.push('filter: alpha(opacity=' + parseInt(event.importance) + 10 + ')');    //for IE
     }
 	return statements.join(';');
 }
