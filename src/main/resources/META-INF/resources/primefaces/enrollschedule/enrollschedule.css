@@ -261,7 +261,7 @@ html .fc,
     border-style: solid;
     border-width: 0;
     font-size: .85em;
-    cursor: default;
+    cursor: pointer;
 }
 
 a.fc-event,
@@ -497,7 +497,7 @@ table.fc-border-separate {
 }
 
 .fc-agenda .fc-agenda-axis {
-    width: 50px;
+    width: 30px;
     padding: 0 4px;
     vertical-align: middle;
     text-align: right;
