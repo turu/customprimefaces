@@ -172,6 +172,7 @@ $.fn.fullCalendar = function(options) {
             week: 'ddd',
             day: 'dddd'
         };
+        console.log("options.columnFormat has been set to: " + options.columnFormat + "\n");
     }
 	
 	
@@ -1213,6 +1214,9 @@ function EventManager(options, _sources) {
 		}else{
 			event.className = [];
 		}
+        if(event.place == undefined) {
+            event.place = "";
+        }
 		// TODO: if there is no start date, return false to indicate an invalid event
 	}
 	
@@ -1948,6 +1952,12 @@ function getSkinCss(event, opt) {
 		source.textColor ||
 		opt('eventTextColor');
     var opacity = .1 + event.importance / 100;
+    if(opacity > 1.) opacity = 1.;
+    console.log("opacity=" + opacity + "\n");
+    if (!event.possible) {
+        classes.push('fc-event-impossible');
+        console.log("event impossible\n");
+    }
 
 	var statements = [];
 	if (backgroundColor) {
@@ -1960,6 +1970,7 @@ function getSkinCss(event, opt) {
 		statements.push('color:' + textColor);
 	}
     if (opt('autoOpacity')) {
+        console.log("autoOpacity is on\n");
         statements.push('opacity:' + opacity);
         statements.push('filter: alpha(opacity=' + event.importance + 10 + ')');    //for IE
     }
@@ -3936,9 +3947,6 @@ function AgendaEventRenderer() {
 		if (event.source) {
 			classes = classes.concat(event.source.className || []);
 		}
-        if (!event.possible) {
-            classes.push('fc-event-impossible');
-        }
 		if (url) {
 			html += "a href='" + htmlEscape(event.url) + "'";
 		}else{
@@ -5411,6 +5419,7 @@ PrimeFaces.widget.EnrollSchedule = PrimeFaces.widget.BaseWidget.extend({
                         var update = updates.eq(i),
                         id = update.attr('id'),
                         data = update.text();
+                        console.log("event source data=" + data + "\n");
 
                         if(id == _self.id){
                             var events = $.parseJSON(data).events;
