@@ -3943,6 +3943,10 @@ function AgendaEventRenderer() {
 		if (seg.isEnd) {
 			classes.push('fc-corner-bottom');
 		}
+        if (event.possible == "false") {
+            classes.push('fc-event-impossible');
+            console.log("event impossible\n");
+        }
 		classes = classes.concat(event.className);
 		if (event.source) {
 			classes = classes.concat(event.source.className || []);
