@@ -137,7 +137,7 @@ public class EnrollScheduleRenderer extends CoreRenderer {
             .attr("axisFormat", schedule.getAxisFormat(), null)
             .attr("timeFormat", schedule.getTimeFormat(), null)
             .attr("periodic", schedule.isPeriodic(), true)
-            .attr("autoColor", schedule.isAutoColor(), true)
+            .attr("autoColor", schedule.isAutoColor(), false)
             .attr("autoOpacity", schedule.isAutoOpacity(), false);
         
         encodeClientBehaviors(context, schedule, wb);

@@ -182,7 +182,7 @@
             <name>autoColor</name>
             <required>false</required>
             <type>java.lang.Boolean</type>
-            <defaultValue>true</defaultValue>
+            <defaultValue>false</defaultValue>
             <description>If set to true, component will automatically adjust events background colors</description>
         </attribute>
         <attribute>

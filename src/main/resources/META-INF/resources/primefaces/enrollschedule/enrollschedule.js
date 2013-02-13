@@ -94,7 +94,7 @@ var defaults = {
 
     periodic: true,
 
-    autoColor: true,
+    autoColor: false,
 
     autoOpacity: false
 	
@@ -1947,6 +1947,8 @@ function getSkinCss(event, opt) {
 		event.textColor ||
 		source.textColor ||
 		opt('eventTextColor');
+    var opacity = .1 + event.importance / 100;
+
 	var statements = [];
 	if (backgroundColor) {
 		statements.push('background-color:' + backgroundColor);
@@ -1957,6 +1959,10 @@ function getSkinCss(event, opt) {
 	if (textColor) {
 		statements.push('color:' + textColor);
 	}
+    if (opt('autoOpacity')) {
+        statements.push('opacity:' + opacity);
+        statements.push('filter: alpha(opacity=' + event.importance + 10 + ')');    //for IE
+    }
 	return statements.join(';');
 }
 
@@ -3916,7 +3922,6 @@ function AgendaEventRenderer() {
 		var skinCss = getSkinCss(event, opt);
 		var skinCssAttr = (skinCss ? " style='" + skinCss + "'" : '');
 		var classes = ['fc-event', 'fc-event-skin', 'fc-event-vert'];
-        var eOpacity = .1 + event.importance / 100;
 
 		if (isEventDraggable(event)) {
 			classes.push('fc-event-draggable');
@@ -3942,9 +3947,7 @@ function AgendaEventRenderer() {
 		html +=
 			" class='" + classes.join(' ') + "'" +
 			" style='position:absolute;z-index:8;top:" + seg.top + "px;left:" + seg.left + "px;"
-            + (opt('autoOpacity') ? "opacity:" + eOpacity + ";" : "")
-            + (opt('autoColor') ? "border-color:" + seg.color + ";background-color:" + seg.color + ";" : "") + skinCss
-            + "'" + ">" +
+            + skinCss + "'" + ">" +
 			"<div class='fc-event-inner fc-event-skin'" + skinCssAttr + ">" +
 			"<div class='fc-event-head fc-event-skin'" + skinCssAttr + ">" +
 			"<div class='fc-event-time'>" +
