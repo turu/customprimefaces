@@ -12,10 +12,10 @@ import javax.faces.event.FacesEvent;
 import javax.faces.event.AjaxBehaviorEvent;
 import org.primefaces.util.Constants;
 import org.primefaces.event.SelectEvent;
-import org.primefaces.event.ScheduleEntryMoveEvent;
-import org.primefaces.event.ScheduleEntryResizeEvent;
-import org.primefaces.model.ScheduleModel;
-import org.primefaces.model.ScheduleEvent;
+import org.primefaces.event.EnrollScheduleEntryMoveEvent;
+import org.primefaces.event.EnrollScheduleEntryResizeEvent;
+import org.primefaces.model.EnrollScheduleModel;
+import org.primefaces.model.EnrollScheduleEvent;
 
 private static final Collection<String> EVENT_NAMES = Collections.unmodifiableCollection(Arrays.asList("dateSelect","eventSelect", "eventMove", "eventResize"));
 
@@ -84,13 +84,13 @@ wrapperEvent = selectEvent;
 }
         else if(eventName.equals("eventSelect")) {
         String selectedEventId = params.get(clientId + "_selectedEventId");
-ScheduleEvent selectedEvent = this.getValue().getEvent(selectedEventId);
+EnrollScheduleEvent selectedEvent = this.getValue().getEvent(selectedEventId);
 
 wrapperEvent = new SelectEvent(this, behaviorEvent.getBehavior(), selectedEvent);
 }
         else if(eventName.equals("eventMove")) {
         String movedEventId = params.get(clientId + "_movedEventId");
-ScheduleEvent movedEvent = this.getValue().getEvent(movedEventId);
+EnrollScheduleEvent movedEvent = this.getValue().getEvent(movedEventId);
 int dayDelta = Integer.valueOf(params.get(clientId + "_dayDelta"));
 int minuteDelta = Integer.valueOf(params.get(clientId + "_minuteDelta"));
 
@@ -108,11 +108,11 @@ calendar.add(Calendar.DATE, dayDelta);
 calendar.add(Calendar.MINUTE, minuteDelta);
 movedEvent.getEndDate().setTime(calendar.getTimeInMillis());
 
-wrapperEvent = new ScheduleEntryMoveEvent(this, behaviorEvent.getBehavior(), movedEvent, dayDelta, minuteDelta);
+wrapperEvent = new EnrollScheduleEntryMoveEvent(this, behaviorEvent.getBehavior(), movedEvent, dayDelta, minuteDelta);
 }
         else if(eventName.equals("eventResize")) {
         String resizedEventId = params.get(clientId + "_resizedEventId");
-ScheduleEvent resizedEvent = this.getValue().getEvent(resizedEventId);
+EnrollScheduleEvent resizedEvent = this.getValue().getEvent(resizedEventId);
 int dayDelta = Integer.valueOf(params.get(clientId + "_dayDelta"));
 int minuteDelta = Integer.valueOf(params.get(clientId + "_minuteDelta"));
 
@@ -123,7 +123,7 @@ calendar.add(Calendar.DATE, dayDelta);
 calendar.add(Calendar.MINUTE, minuteDelta);
 resizedEvent.getEndDate().setTime(calendar.getTimeInMillis());
 
-wrapperEvent = new ScheduleEntryResizeEvent(this, behaviorEvent.getBehavior(), resizedEvent, dayDelta, minuteDelta);
+wrapperEvent = new EnrollScheduleEntryResizeEvent(this, behaviorEvent.getBehavior(), resizedEvent, dayDelta, minuteDelta);
 }
 
         wrapperEvent.setPhaseId(behaviorEvent.getPhaseId());
