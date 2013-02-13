@@ -3916,11 +3916,8 @@ function AgendaEventRenderer() {
 		var skinCss = getSkinCss(event, opt);
 		var skinCssAttr = (skinCss ? " style='" + skinCss + "'" : '');
 		var classes = ['fc-event', 'fc-event-skin', 'fc-event-vert'];
-        var eOpacity = 1.0;
+        var eOpacity = .1 + event.importance / 100;
 
-        if(opt('autoOpacity')) {
-            eOpacity = .2 + event.importance / 100;
-        }
 		if (isEventDraggable(event)) {
 			classes.push('fc-event-draggable');
 		}
