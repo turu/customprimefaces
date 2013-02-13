@@ -286,12 +286,11 @@ a.fc-event {
 .fc-event-impossible {
     border-style: dashed;
     border-bottom-color: #ff0000;
-    border-bottom-width: 2px;
+    border-bottom-width: thin;
     border-top-color: #ff0000;
-    border-top-width: 2px;
+    border-top-width: thin;
     border-color: #ff0000;
-    border-width: 2px;
-    border-spacing: 2px;
+    border-width: thin;
     border-radius: 5px;
 }
 

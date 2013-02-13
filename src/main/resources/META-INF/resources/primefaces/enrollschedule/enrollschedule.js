@@ -1951,7 +1951,10 @@ function getSkinCss(event, opt) {
 		event.textColor ||
 		source.textColor ||
 		opt('eventTextColor');
-    var opacity = .5 + .5*(event.importance / 100);     //minimum opacity is 0.5, maximum 1
+    var opacity = .6 + .4*(event.importance / 100);     //minimum opacity is 0.6, maximum 1
+    if (event.possible == "false") {
+        opacity = .5;                                   //unless event's impossible when it's 0.5
+    }
     console.log("opacity=" + opacity + "\n" + event.possible + " " + opt('dragOpacity'));
 
 	var statements = [];
