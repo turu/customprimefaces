@@ -90,7 +90,13 @@ var defaults = {
 	//selectable: false,
 	unselectAuto: true,
 	
-	dropAccept: '*'
+	dropAccept: '*',
+
+    periodic: true,
+
+    autoColor: true,
+
+    autoOpacity: false
 	
 };
 
@@ -159,6 +165,14 @@ $.fn.fullCalendar = function(options) {
 		(options.isRTL || options.isRTL===undefined && defaults.isRTL) ? rtlDefaults : {},
 		options
 	);
+
+    if(options.periodic) {
+        options.columnFormat = {
+            month: 'ddd',
+            week: 'ddd',
+            day: 'dddd'
+        };
+    }
 	
 	
 	this.each(function(i, _element) {
@@ -1081,6 +1095,11 @@ function EventManager(options, _sources) {
 				e.backgroudColor = event.backgroudColor;
 				e.borderColor = event.borderColor;
 				e.textColor = event.textColor;
+                e.importance = event.importance;
+                e.points = event.points;
+                e.possible = event.possible;
+                e.teacher = event.teacher;
+                e.place = event.place;
 				normalizeEvent(e);
 			}
 		}
@@ -2303,7 +2322,7 @@ function BasicView(element, calendar, viewName) {
 			}else{
 				cell.addClass('fc-other-month');
 			}
-			if (+date == +today) {
+			if (+date == +today && !opt('periodic')) {
 				cell.addClass(tm + '-state-highlight fc-today');
 			}else{
 				cell.removeClass(tm + '-state-highlight fc-today');
@@ -2807,9 +2826,9 @@ function AgendaDayView(element, calendar) {
 setDefaults({
 	allDaySlot: true,
 	allDayText: 'all-day',
-	firstHour: 6,
-	slotMinutes: 30,
-	defaultEventMinutes: 120,
+	firstHour: 7,
+	slotMinutes: 15,
+	defaultEventMinutes: 90,
 	axisFormat: 'h(:mm)tt',
 	timeFormat: {
 		agenda: 'h:mm{ - h:mm}'
@@ -3120,7 +3139,7 @@ function AgendaView(element, calendar, viewName) {
 			headCell = dayHeadCells.eq(i);
 			headCell.html(formatDate(date, colFormat));
 			bodyCell = dayBodyCells.eq(i);
-			if (+date == +today) {
+			if (+date == +today && !opt('periodic')) {
 				bodyCell.addClass(tm + '-state-highlight fc-today');
 			}else{
 				bodyCell.removeClass(tm + '-state-highlight fc-today');
@@ -3903,6 +3922,9 @@ function AgendaEventRenderer() {
 		if (event.source) {
 			classes = classes.concat(event.source.className || []);
 		}
+        if (!event.possible) {
+            classes.push('fc-event-impossible');
+        }
 		if (url) {
 			html += "a href='" + htmlEscape(event.url) + "'";
 		}else{
@@ -3910,7 +3932,8 @@ function AgendaEventRenderer() {
 		}
 		html +=
 			" class='" + classes.join(' ') + "'" +
-			" style='position:absolute;z-index:8;top:" + seg.top + "px;left:" + seg.left + "px;" + skinCss + "'" +
+			" style='position:absolute;z-index:8;top:" + seg.top + "px;left:" + seg.left + "px;" + skinCss
+            + (opt('autoOpacity') ? "" : "") + "'" +
 			">" +
 			"<div class='fc-event-inner fc-event-skin'" + skinCssAttr + ">" +
 			"<div class='fc-event-head fc-event-skin'" + skinCssAttr + ">" +
@@ -3920,8 +3943,11 @@ function AgendaEventRenderer() {
 			"</div>" +
 			"<div class='fc-event-content'>" +
 			"<div class='fc-event-title'>" +
-			htmlEscape(event.title) +
+			htmlEscape(event.title + ", " + event.teacher + (event.place != "" ? ", " + event.place : "")) +
 			"</div>" +
+            "<div class='fc-event-points'>" +
+            htmlEscape(event.points) +
+            "</div>" +
 			"</div>" +
 			"<div class='fc-event-bg'></div>" +
 			"</div>"; // close inner

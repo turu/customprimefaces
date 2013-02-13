@@ -15,9 +15,7 @@
  */
 package org.primefaces.component.enrollschedule;
 
-import org.primefaces.model.LazyScheduleModel;
-import org.primefaces.model.ScheduleEvent;
-import org.primefaces.model.ScheduleModel;
+import org.primefaces.model.*;
 import org.primefaces.renderkit.CoreRenderer;
 import org.primefaces.util.WidgetBuilder;
 
@@ -52,25 +50,13 @@ public class EnrollScheduleRenderer extends CoreRenderer {
 	
 	protected void encodeEvents(FacesContext context, EnrollSchedule schedule) throws IOException {
 		String clientId = schedule.getClientId(context);
-		ScheduleModel model = (ScheduleModel) schedule.getValue();
+		EnrollScheduleModel model = (EnrollScheduleModel) schedule.getValue();
 		Map<String,String> params = context.getExternalContext().getRequestParameterMap();
-		
-        if(model instanceof LazyScheduleModel) {
-            String startDateParam = params.get(clientId + "_start");
-            String endDateParam = params.get(clientId + "_end");
-
-            Date startDate = new Date(Long.valueOf(startDateParam));
-            Date endDate = new Date(Long.valueOf(endDateParam));
-
-            LazyScheduleModel lazyModel = ((LazyScheduleModel) model);
-            lazyModel.clear();							//Clear old events
-            lazyModel.loadEvents(startDate, endDate);	//Lazy load events
-        }
 		
 		encodeEventsAsJSON(context, schedule, model);
 	}
 	
-	protected void encodeEventsAsJSON(FacesContext context, EnrollSchedule schedule, ScheduleModel model) throws IOException {
+	protected void encodeEventsAsJSON(FacesContext context, EnrollSchedule schedule, EnrollScheduleModel model) throws IOException {
 		ResponseWriter writer = context.getResponseWriter();
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeZone(schedule.calculateTimeZone());
@@ -79,8 +65,8 @@ public class EnrollScheduleRenderer extends CoreRenderer {
 		writer.write("\"events\" : [");
 		
         if(model != null) {
-            for(Iterator<ScheduleEvent> iterator = model.getEvents().iterator(); iterator.hasNext();) {
-                ScheduleEvent event = iterator.next();
+            for(Iterator<EnrollScheduleEvent> iterator = model.getEvents().iterator(); iterator.hasNext();) {
+                EnrollScheduleEvent event = iterator.next();
                 calendar.setTime(event.getStartDate());
                 long startDateInMillis = calendar.getTimeInMillis();
 
@@ -96,6 +82,11 @@ public class EnrollScheduleRenderer extends CoreRenderer {
                 writer.write(",\"editable\":" + event.isEditable());
                 if(event.getStyleClass() != null)
                     writer.write(",\"className\":\"" + event.getStyleClass() + "\"");
+                writer.write(",\"importance\":\"" + event.getImportance() + "\"");
+                writer.write(",\"points\":\"" + event.getPoints() + "\"");
+                writer.write(",\"possible\":\"" + event.isPossible() + "\"");
+                writer.write(",\"teacher\":\"" + event.getTeacher() + "\"");
+                writer.write(",\"place\":\"" + event.getPlace() + "\"");
 
                 writer.write("}");
 
@@ -135,7 +126,7 @@ public class EnrollScheduleRenderer extends CoreRenderer {
 		}
         
         wb.attr("allDaySlot", schedule.isAllDaySlot(), true)
-            .attr("slotMinutes", schedule.getSlotMinutes(), 30)
+            .attr("slotMinutes", schedule.getSlotMinutes(), 15)
             .attr("firstHour", schedule.getFirstHour(), 6)
             .attr("minTime", schedule.getMinTime(), null)
             .attr("maxTime", schedule.getMaxTime(), null)
@@ -144,7 +135,10 @@ public class EnrollScheduleRenderer extends CoreRenderer {
             .attr("disableDragging", !schedule.isDraggable(), false)
             .attr("disableResizing", !schedule.isResizable(), false)
             .attr("axisFormat", schedule.getAxisFormat(), null)
-            .attr("timeFormat", schedule.getTimeFormat(), null);
+            .attr("timeFormat", schedule.getTimeFormat(), null)
+            .attr("periodic", schedule.isPeriodic(), true)
+            .attr("autoColor", schedule.isAutoColor(), true)
+            .attr("autoOpacity", schedule.isAutoOpacity(), false);
         
         encodeClientBehaviors(context, schedule, wb);
 

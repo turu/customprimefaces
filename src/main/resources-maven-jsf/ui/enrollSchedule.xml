@@ -178,6 +178,20 @@
             <defaultValue>true</defaultValue>
             <description>Determines if the ongoing enrollment is periodic or a single event (such as an exam). Defaults to true.</description>
         </attribute>
+        <attribute>
+            <name>autoColor</name>
+            <required>false</required>
+            <type>java.lang.Boolean</type>
+            <defaultValue>true</defaultValue>
+            <description>If set to true, component will automatically adjust events background colors</description>
+        </attribute>
+        <attribute>
+            <name>autoOpacity</name>
+            <required>false</required>
+            <type>java.lang.Boolean</type>
+            <defaultValue>false</defaultValue>
+            <description>If set to true, component will automatically adjust events opacity to reflect their importance</description>
+        </attribute>
     </attributes>
     <resources>
         <resource>
