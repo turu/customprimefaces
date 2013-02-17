@@ -6,7 +6,7 @@
     <groupId>org.primefaces</groupId>
     <artifactId>primefaces</artifactId>
     <packaging>jar</packaging>
-    <version>3.5zh</version>
+    <version>3.5zi</version>
     <name>primefaces</name>
     <url>http://www.primefaces.org</url>
     

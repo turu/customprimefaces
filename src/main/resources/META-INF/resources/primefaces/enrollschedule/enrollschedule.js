@@ -39,7 +39,7 @@ var defaults = {
         if (width < 50) {
             $(element).css('width', 50 + 'px');
             var colWidth = view.getColWidth();
-            var viewOffset = $(document.forms[0]).offset().left;
+            var scheduleOffset = $('.fc-agenda-axis').offset().left + $('.fc-agenda-axis').width();
             var leftOffset = $(element).offset().left - viewOffset;
             console.log("col width = " + colWidth + ", viewOffset = " + viewOffset + ", left offset = " + leftOffset);
             var colNumber = Math.floor(leftOffset / colWidth);
@@ -3130,7 +3130,7 @@ function AgendaView(element, calendar, viewName) {
 		}
 		
 		slotScroller =
-			$("<div style='position:absolute;width:100%;overflow-x:hidden;overflow-y:auto'/>")
+			$("<div style='position:absolute;width:100%;overflow-x:auto;overflow-y:auto'/>")
 				.appendTo(slotLayer);
 				
 		slotContent =
