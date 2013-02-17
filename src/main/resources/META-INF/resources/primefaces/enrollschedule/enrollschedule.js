@@ -38,15 +38,16 @@ var defaults = {
 
         if (width < 50) {
             $(element).css('width', 50 + 'px');
-            var colWidth = view.getColWidth();
+            /*var colWidth = view.getColWidth();
             var scheduleOffset = $('.fc-agenda-axis').offset().left + $('.fc-agenda-axis').width();
             var leftOffset = $(element).offset().left - scheduleOffset;
             console.log("col width = " + colWidth + ", scheduleOffset = " + scheduleOffset + ", left offset = " + leftOffset);
             var colNumber = Math.floor(leftOffset / colWidth);
+
             console.log("col number = " + colNumber);
 
             //trying to influence col width
-            $('.fc-col' + colNumber).css('width', colWidth + 50 - width);
+            $('.fc-col' + colNumber).css('width', colWidth + 50 - width);*/
 
             //var leftOffset = $(element).left();
             //var newOffset = leftOffset + 50 - width;
@@ -303,7 +304,7 @@ function Calendar(element, options, eventSources) {
 		if (options.theme) {
 			element.addClass('ui-widget');
 		}
-		content = $("<div class='fc-content' style='position:relative'/>")
+		content = $("<div class='fc-content' style='width: 1500 !important; overflow-x: auto; position:relative'/>")
 			.prependTo(element);
 		header = new Header(t, options);
 		headerElement = header.render();
@@ -371,7 +372,7 @@ function Calendar(element, options, eventSources) {
 			}else{
 				setMinHeight(content, 1); // needs to be 1 (not 0) for IE7, or else view dimensions miscalculated
 			}
-			content.css('overflow', 'hidden');
+			content.css('overflow-x', 'scroll');
 			
 			currentView = viewInstances[newViewName];
 			if (currentView) {
@@ -392,7 +393,7 @@ function Calendar(element, options, eventSources) {
 			
 			renderView(); // after height has been set, will make absoluteViewElement's position=relative, then set to null
 			
-			content.css('overflow', '');
+			content.css('overflow-x', 'auto');
 			if (oldView) {
 				setMinHeight(content, 1);
 			}
@@ -3130,7 +3131,7 @@ function AgendaView(element, calendar, viewName) {
 		}
 		
 		slotScroller =
-			$("<div style='position:absolute;width:100%;overflow-x:auto;overflow-y:auto'/>")
+			$("<div style='position:absolute;width:100%;overflow-x:hidden;overflow-y:auto'/>")
 				.appendTo(slotLayer);
 				
 		slotContent =
