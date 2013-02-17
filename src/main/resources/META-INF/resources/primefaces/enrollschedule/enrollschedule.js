@@ -5359,7 +5359,7 @@ PrimeFaces.widget.EnrollSchedule = PrimeFaces.widget.BaseWidget.extend({
         this.cfg.eventClick = function(calEvent, jsEvent, view) {
             if(_self.cfg.behaviors) {
                 var eventSelectBehavior = _self.cfg.behaviors['eventSelect'];
-                if(eventSelectBehavior) {
+                if(eventSelectBehavior && calEvent.interactive) {
                     var ext = {
                         params: [
                             {name: _self.id + '_selectedEventId', value: calEvent.id}
