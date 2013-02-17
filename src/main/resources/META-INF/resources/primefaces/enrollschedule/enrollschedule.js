@@ -38,6 +38,11 @@ var defaults = {
 
         if (width < 50) {
             $(element).css('width', 50 + 'px');
+
+            var leftOffset = $(element).left();
+            var newOffset = leftOffset + 50 - width;
+
+            $(element).css('left', newOffset + 'px');
         }
     },
 
