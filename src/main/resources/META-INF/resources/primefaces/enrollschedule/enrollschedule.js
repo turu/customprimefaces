@@ -3970,10 +3970,10 @@ function AgendaEventRenderer() {
 			"<div class='fc-event-content'>" +
 			"<div class='fc-event-title'>" +
 			htmlEscape(event.title + ", " + event.teacher + (event.place != "" ? ", " + event.place : "")) +
-			"</div>" +
-            "<div class='fc-event-points'>" +
+			(event.activityType != "" ? "- " + event.activityType : "") + "</div>" +
+            (event.showPoints ? "<div class='fc-event-points'>" +
             htmlEscape(event.points) +
-            "</div>" +
+            "</div>" : "") +
 			"</div>" +
 			"<div class='fc-event-bg'></div>" +
 			"</div>"; // close inner
