@@ -38,11 +38,20 @@ var defaults = {
 
         if (width < 50) {
             $(element).css('width', 50 + 'px');
-
+            var colWidth = view.getColWidth();
+            var viewWidth = view.getWidth();
             var leftOffset = $(element).left();
-            var newOffset = leftOffset + 50 - width;
+            console.log("col width = " + colWidth + ", total width = " + viewWidth + ", left offset = " + leftOffset);
+            var colNumber = leftOffset / colWidth;
+            console.log("col number = " + colNumber);
 
-            $(element).css('left', newOffset + 'px');
+            //trying to influence col width
+            $('.fc-col' + colNumber).css('width', colWidth + 50 - width);
+
+            //var leftOffset = $(element).left();
+            //var newOffset = leftOffset + 50 - width;
+
+            //$(element).css('left', newOffset + 'px');
         }
     },
 
