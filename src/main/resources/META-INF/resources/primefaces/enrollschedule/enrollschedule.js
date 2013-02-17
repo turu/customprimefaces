@@ -32,6 +32,15 @@ var defaults = {
     eventRender: function (event, element, view) {
     },
 
+    //This gimmicky function tries to keep all events at least 50px wide
+    eventAfterRender: function (event, element, view) {
+        var width = $(element).width(); //saving event's current width
+
+        if (width < 50) {
+            $(element).css('width', 50 + 'px');
+        }
+    },
+
 	weekends: true,
 	
 	// editing
