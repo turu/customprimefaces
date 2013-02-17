@@ -40,8 +40,8 @@ var defaults = {
             $(element).css('width', 50 + 'px');
             var colWidth = view.getColWidth();
             var scheduleOffset = $('.fc-agenda-axis').offset().left + $('.fc-agenda-axis').width();
-            var leftOffset = $(element).offset().left - viewOffset;
-            console.log("col width = " + colWidth + ", viewOffset = " + viewOffset + ", left offset = " + leftOffset);
+            var leftOffset = $(element).offset().left - scheduleOffset;
+            console.log("col width = " + colWidth + ", scheduleOffset = " + scheduleOffset + ", left offset = " + leftOffset);
             var colNumber = Math.floor(leftOffset / colWidth);
             console.log("col number = " + colNumber);
 
