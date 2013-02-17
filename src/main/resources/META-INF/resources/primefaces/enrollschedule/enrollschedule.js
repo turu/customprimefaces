@@ -421,7 +421,7 @@ function Calendar(element, options, eventSources) {
 			var today = new Date();
 			if (today >= currentView.start && today < currentView.end) {
 				header.disableButton('today');
-			}else{
+			} else if(options.periodic != "true") {
 				header.enableButton('today');
 			}
 			
@@ -1101,6 +1101,9 @@ function EventManager(options, _sources) {
                 e.possible = event.possible;
                 e.teacher = event.teacher;
                 e.place = event.place;
+                e.activityType = event.activityType;
+                e.interactive = event.interactive;
+                e.showPoints = event.showPoints;
 				normalizeEvent(e);
 			}
 		}

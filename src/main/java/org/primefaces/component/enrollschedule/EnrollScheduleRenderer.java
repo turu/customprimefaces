@@ -90,7 +90,7 @@ public class EnrollScheduleRenderer extends CoreRenderer {
                     writer.write(",\"place\":\"" + event.getPlace() + "\"");
                 if(event.getColor() != null && event.getColor() != "")
                     writer.write(",\"color\":\"" + event.getColor() + "\"");
-                writer.write(",\"type\":\"" + event.getType() + "\"");
+                writer.write(",\"activityType\":\"" + event.getActivityType() + "\"");
                 writer.write(",\"interactive\":\"" + event.isInteractive() + "\"");
                 writer.write(",\"showPoints\":\"" + event.isShowPoints() + "\"");
 

@@ -34,7 +34,7 @@ public class DefaultEnrollScheduleEvent implements EnrollScheduleEvent, Serializ
 
     private String place = "";
 
-    private String type = "";
+    private String activityType = "";
 
     private String color;
 
@@ -160,8 +160,8 @@ public class DefaultEnrollScheduleEvent implements EnrollScheduleEvent, Serializ
         return color;
     }
 
-    public String getType() {
-        return type;
+    public String getActivityType() {
+        return activityType;
     }
 
     public Boolean isInteractive() {
@@ -188,8 +188,8 @@ public class DefaultEnrollScheduleEvent implements EnrollScheduleEvent, Serializ
         }
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setActivityType(String type) {
+        this.activityType = type;
     }
 
     public void setTeacher(String teacher) {

@@ -19,7 +19,7 @@ public interface EnrollScheduleEvent extends ScheduleEvent {
 
     String getColor();
 
-    String getType();
+    String getActivityType();
 
     Boolean isInteractive();
 
