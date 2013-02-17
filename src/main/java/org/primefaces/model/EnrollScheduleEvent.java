@@ -17,4 +17,11 @@ public interface EnrollScheduleEvent extends ScheduleEvent {
 
     String getPlace();
 
+    String getColor();
+
+    String getType();
+
+    Boolean isInteractive();
+
+    Boolean isShowPoints();
 }

@@ -34,6 +34,14 @@ public class DefaultEnrollScheduleEvent implements EnrollScheduleEvent, Serializ
 
     private String place = "";
 
+    private String type = "";
+
+    private String color;
+
+    private boolean interactive = true;
+
+    private boolean showPoints = true;
+
 
     public DefaultEnrollScheduleEvent() {}
 
@@ -148,6 +156,22 @@ public class DefaultEnrollScheduleEvent implements EnrollScheduleEvent, Serializ
         return place;
     }
 
+    public String getColor() {
+        return color;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public Boolean isInteractive() {
+        return interactive;
+    }
+
+    public Boolean isShowPoints() {
+        return showPoints;
+    }
+
     public void setImportance(int importance) {
         this.importance = importance;
     }
@@ -207,4 +231,7 @@ public class DefaultEnrollScheduleEvent implements EnrollScheduleEvent, Serializ
         return "DefaultEnrollScheduleEvent{title=" + title + ",startDate=" + startDate + ",endDate=" + endDate + "}";
     }
 
+    public void setColor(String color) {
+        this.color = color;
+    }
 }

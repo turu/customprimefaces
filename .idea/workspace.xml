@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="73af3fef-5ae1-45b3-ab22-041e78a6693b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java" afterPath="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleEvent.java" afterPath="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="primefaces.iws" />
@@ -12,36 +13,141 @@
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5/primefaces-3.5.jar!/META-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360624730934" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5/primefaces-3.5.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360624730934" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/.idea/libraries/Maven__org_primefaces_primefaces_3_5.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360639933001" ignored="false" />
-    <file path="/fragment.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360716122153" ignored="false" />
-    <file path="/EnrollScheduleRenderer.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360755148436" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/EnrollUserDetailsService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360627639123" ignored="false" />
-    <file path="/EnrollUserDetailsService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360627090237" ignored="false" />
+    <file path="/fragment.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360975724369" ignored="false" />
+    <file path="/EnrollScheduleRenderer.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361113530882" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/EnrollUserDetailsService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634523" ignored="false" />
+    <file path="/EnrollUserDetailsService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361031599373" ignored="false" />
     <file path="/enrollSchedule.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360759581732" ignored="false" />
     <file path="/EnrollSchedule.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360630434570" ignored="false" />
-    <file path="/Dummy.txt" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360712249281" ignored="false" />
+    <file path="/Dummy.txt" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361112660710" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/lib/org/primefaces/primefaces/3.5/primefaces-3.5.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360631688118" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782721576" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/preferences-management/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782118111" ignored="false" />
-    <file path="/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782118111" ignored="false" />
-    <file path="/a.dummy" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360779991202" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361024220640" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/preferences-management/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028900030" ignored="false" />
+    <file path="/a.dummy" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360972705286" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782466185" ignored="false" />
-    <file path="/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782465858" ignored="false" />
-    <file path="/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360789612582" ignored="false" />
+    <file path="/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361113336972" ignored="false" />
+    <file path="/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360789800194" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5b/primefaces-3.5b.jar!/META-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360674295537" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5b/primefaces-3.5b.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360674295537" ignored="false" />
-    <file path="/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360777666263" ignored="false" />
+    <file path="/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361112682809" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5d/primefaces-3.5d.jar!/META-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360687258793" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5d/primefaces-3.5d.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360687258793" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5d/primefaces-3.5d.jar!/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360687259592" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/repo/org/primefaces/primefaces/maven-metadata.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360753850981" ignored="false" />
     <file path="/EnrollScheduleModel.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360716373928" ignored="false" />
-    <file path="/EnrollScheduleEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360718147126" ignored="false" />
+    <file path="/EnrollScheduleEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361113381830" ignored="false" />
     <file path="/DefaultEnrollScheduleModel.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360753744963" ignored="false" />
-    <file path="/DefaultEnrollScheduleEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360718619572" ignored="false" />
+    <file path="/DefaultEnrollScheduleEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361113444251" ignored="false" />
     <file path="/enrollschedule.css" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360789207431" ignored="false" />
     <file path="/EnrollScheduleTemplate.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360760401720" ignored="false" />
     <file path="/EnrollScheduleEntryMoveEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360760082601" ignored="false" />
     <file path="/EnrollScheduleEntryResizeEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360760323551" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/RingBean.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360872963160" ignored="false" />
+    <file path="/RingBean.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360872961812" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/preferences-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361022464923" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/ProgressBean.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360861023313" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/resources/applicationContext.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360867502023" ignored="false" />
+    <file path="/applicationContext.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360867368124" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/subject-selection/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Group.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/admin-panel/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240683" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Enroll.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/admin-panel/list.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874264386" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/PersonDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240683" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/top-flow-with-embedded-subflow/main.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874264387" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/EnrollConfiguration.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/top-flow-with-embedded-subflow/embedded-flow/main.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874264387" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/PersonService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/admin-event-selection/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874264386" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Person.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361041008647" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/top-flow-with-embedded-subflow/embedded-flow/confirmation.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874264386" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/ConfigurationDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/event-selection/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/event-selection/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/webflow/autocomplete/PersonConverter.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874268043" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/RingBean.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874441375" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361113338543" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/ProgressBean.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360873797936" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/RingController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964346147" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/SubjectChoosingService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="/SubjectChoosingService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360877274370" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/PreferencesManagementController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/IPreferencesManagementController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360877565212" ignored="false" />
+    <file path="/PreferencesManagementController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360974106012" ignored="false" />
+    <file path="/IPreferencesManagementController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360877564322" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/IPreferencesManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964345460" ignored="false" />
+    <file path="/IPreferencesManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360881372321" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/PreferencesManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="/PreferencesManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361020630213" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/IPersonDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Teacher.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/EventDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/EnrollmentDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/new-enrollment/basic-configuration/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/SubjectDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/IEnrollmentDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/subject-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/EnrollmentService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/new-enrollment/basic-configuration/basic-configuration.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360893907640" ignored="false" />
+    <file path="/basic-configuration.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360893429181" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/RequestContextPhaseListener.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964345460" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964345460" ignored="false" />
+    <file path="/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360894031233" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Term.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="/Term.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360979473747" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/StudentPointsPerTerm.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="/StudentPointsPerTerm.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966311038" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/ISubjectDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/subject-management/subject-management.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/IEnrollmentService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Subject.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/subject-selection/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964345460" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/admin-panel/new-enrollment/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240683" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/people-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/new-enrollment/final-configuration/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/new-enrollment/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/configure-already-created-enrollment/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/term-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/EnrollmentModeService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/SelectableDataModelForSubjects.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Event.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/ITeacherDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/IGenericDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/GenericDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/TeacherDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/IGenericEditableService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/TeacherService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/GenericEditableService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/ISubjectChoosingService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/teacher-management/teacher-management.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/teacher-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/EnrollDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/enroll-me.iml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/user-groups/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/global-people-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/GroupDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/ITermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="/ITermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360968429411" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/TermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="/TermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360970113278" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/IStudentPointsPerTermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360970222942" ignored="false" />
+    <file path="/IStudentPointsPerTermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360970220937" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/IStudentPointsPerTermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/StudentPointsPerTermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="/StudentPointsPerTermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360972155997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/ProgressRingController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="/ProgressRingController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361023180736" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/ProgressToken.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="/ProgressToken.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361023481664" ignored="false" />
+    <file path="/Subject.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360978418719" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/global-people-management/list.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/list.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
+    <file path="/PersonService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361031527186" ignored="false" />
+    <file path="/Person.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361040973964" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +209,7 @@
       <file leaf-file-name="enrollschedule.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1930" column="19" selection-start="43831" selection-end="43841" vertical-scroll-proportion="16.870968">
+            <state line="1930" column="19" selection-start="43831" selection-end="43841" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1360777694299" expanded="false" signature="5915:5932" placeholder="..." />
                 <marker date="1360777694299" expanded="false" signature="15942:15952" placeholder="..." />
@@ -116,9 +222,9 @@
                 <marker date="1360777694299" expanded="false" signature="69771:69811" placeholder="..." />
                 <marker date="1360777694299" expanded="false" signature="69873:69883" placeholder="..." />
                 <marker date="1360777694299" expanded="false" signature="70087:70104" placeholder="..." />
-                <marker date="1360777694299" expanded="true" signature="70780:70842" placeholder="..." />
-                <marker date="1360777694299" expanded="true" signature="70913:70957" placeholder="..." />
-                <marker date="1360777694299" expanded="true" signature="71040:71080" placeholder="..." />
+                <marker date="1360777694299" expanded="false" signature="70780:70842" placeholder="..." />
+                <marker date="1360777694299" expanded="false" signature="70913:70957" placeholder="..." />
+                <marker date="1360777694299" expanded="false" signature="71040:71080" placeholder="..." />
                 <marker date="1360777694299" expanded="false" signature="71165:71175" placeholder="..." />
                 <marker date="1360777694299" expanded="false" signature="71668:71685" placeholder="..." />
                 <marker date="1360777694299" expanded="false" signature="123851:123878" placeholder="..." />
@@ -127,19 +233,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enrollschedule.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css">
+      <file leaf-file-name="EnrollScheduleRenderer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="285" column="22" selection-start="4699" selection-end="4699" vertical-scroll-proportion="0.5346535">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enrollSchedule.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml">
+      <file leaf-file-name="DefaultEnrollScheduleModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="46" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultEnrollScheduleEvent.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="224" column="21" selection-start="4843" selection-end="4843" vertical-scroll-proportion="0.88304096">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnrollScheduleEvent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="27" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -172,22 +296,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/primefaces/component/schedule/Schedule.java" />
         <option value="$PROJECT_DIR$/target/generated-sources/maven-jsf-plugin/org/primefaces/component/schedule/Schedule.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollSchedule.java" />
         <option value="$PROJECT_DIR$/target/generated-sources/maven-jsf-plugin/org/primefaces/component/enrollschedule/EnrollSchedule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java" />
         <option value="$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/event/EnrollScheduleEntryMoveEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/event/EnrollScheduleEntryResizeEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java-templates/org/primefaces/component/enrollschedule/EnrollScheduleTemplate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/primefaces/component/ring/RingRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" />
+        <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java" />
       </list>
     </option>
   </component>
@@ -280,6 +404,320 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generated-sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maven-jsf-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generated-sources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="maven-jsf-plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3_5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enrollschedule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -326,84 +764,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="primefaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="primefaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3_5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="primefaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3_5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="primefaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3_5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="primefaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="3_5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="primefaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,9 +779,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -471,19 +831,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -510,6 +857,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -605,13 +965,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6393728" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36062717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36062717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -672,99 +1032,76 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/json/JSONString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="487" selection-end="487" vertical-scroll-proportion="0.2631579">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/facelets/MethodRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="13" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.38011697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/event/SelectEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="867" selection-end="867" vertical-scroll-proportion="0.14619882">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="29" selection-start="4606" selection-end="4606" vertical-scroll-proportion="5.883041">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="124" selection-start="478" selection-end="478" vertical-scroll-proportion="0.5263158">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/event/ScheduleEntryMoveEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="67" selection-start="897" selection-end="897" vertical-scroll-proportion="0.09">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/event/EnrollScheduleEntryResizeEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="48" selection-start="79" selection-end="79" vertical-scroll-proportion="0.06355932">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/event/ScheduleEntryResizeEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="29" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.99">
-          <folding />
-        </state>
+        <state line="53" column="29" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.99" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/event/EnrollScheduleEntryMoveEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="48" selection-start="79" selection-end="79" vertical-scroll-proportion="0.06">
-          <folding />
-        </state>
+        <state line="2" column="48" selection-start="79" selection-end="79" vertical-scroll-proportion="0.06" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java-templates/org/primefaces/component/enrollschedule/EnrollScheduleTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="58" selection-start="235" selection-end="235" vertical-scroll-proportion="0.15">
-          <folding />
-        </state>
+        <state line="8" column="58" selection-start="235" selection-end="235" vertical-scroll-proportion="0.15" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="43" selection-start="3459" selection-end="3459" vertical-scroll-proportion="0.4659091">
-          <folding>
-            <element signature="e#0#7205#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="589" column="27" selection-start="10215" selection-end="10226" vertical-scroll-proportion="0.47058824" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="46" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0">
+        <state line="27" column="46" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.76704544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java-templates/org/primefaces/component/rating/RatingTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java-templates/org/primefaces/component/ring/RingTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/component/ring/RingRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="636" selection-end="636" vertical-scroll-proportion="0.027726432">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/maven-jsf-plugin/org/primefaces/component/ring/Ring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="13" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.028409092">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources-maven-jsf/ui/ring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1930" column="19" selection-start="43831" selection-end="43841" vertical-scroll-proportion="16.870968">
+        <state line="1930" column="19" selection-start="43831" selection-end="43841" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1360777694299" expanded="false" signature="5915:5932" placeholder="..." />
             <marker date="1360777694299" expanded="false" signature="15942:15952" placeholder="..." />
@@ -777,9 +1114,9 @@
             <marker date="1360777694299" expanded="false" signature="69771:69811" placeholder="..." />
             <marker date="1360777694299" expanded="false" signature="69873:69883" placeholder="..." />
             <marker date="1360777694299" expanded="false" signature="70087:70104" placeholder="..." />
-            <marker date="1360777694299" expanded="true" signature="70780:70842" placeholder="..." />
-            <marker date="1360777694299" expanded="true" signature="70913:70957" placeholder="..." />
-            <marker date="1360777694299" expanded="true" signature="71040:71080" placeholder="..." />
+            <marker date="1360777694299" expanded="false" signature="70780:70842" placeholder="..." />
+            <marker date="1360777694299" expanded="false" signature="70913:70957" placeholder="..." />
+            <marker date="1360777694299" expanded="false" signature="71040:71080" placeholder="..." />
             <marker date="1360777694299" expanded="false" signature="71165:71175" placeholder="..." />
             <marker date="1360777694299" expanded="false" signature="71668:71685" placeholder="..." />
             <marker date="1360777694299" expanded="false" signature="123851:123878" placeholder="..." />
@@ -787,16 +1124,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="22" selection-start="4699" selection-end="4699" vertical-scroll-proportion="0.5346535">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="27" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="21" selection-start="4843" selection-end="4843" vertical-scroll-proportion="0.88304096">
           <folding />
         </state>
       </provider>

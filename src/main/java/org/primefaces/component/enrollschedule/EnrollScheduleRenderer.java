@@ -86,8 +86,13 @@ public class EnrollScheduleRenderer extends CoreRenderer {
                 writer.write(",\"points\":\"" + event.getPoints() + "\"");
                 writer.write(",\"possible\":\"" + event.isPossible() + "\"");
                 writer.write(",\"teacher\":\"" + event.getTeacher() + "\"");
-                if(event.getPlace() != "" && event.getPlace() != null)
+                if(event.getPlace() != null && event.getPlace() != "")
                     writer.write(",\"place\":\"" + event.getPlace() + "\"");
+                if(event.getColor() != null && event.getColor() != "")
+                    writer.write(",\"color\":\"" + event.getColor() + "\"");
+                writer.write(",\"type\":\"" + event.getType() + "\"");
+                writer.write(",\"interactive\":\"" + event.isInteractive() + "\"");
+                writer.write(",\"showPoints\":\"" + event.isShowPoints() + "\"");
 
                 writer.write("}");
 
