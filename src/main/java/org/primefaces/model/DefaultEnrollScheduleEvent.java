@@ -188,12 +188,24 @@ public class DefaultEnrollScheduleEvent implements EnrollScheduleEvent, Serializ
         }
     }
 
+    public void setType(String type) {
+        this.type = type;
+    }
+
     public void setTeacher(String teacher) {
         this.teacher = teacher;
     }
 
     public void setPlace(String place) {
         this.place = place;
+    }
+
+    public void setInteractive(boolean interactive) {
+        this.interactive = interactive;
+    }
+
+    public void setShowPoints(boolean showPoints) {
+        this.showPoints = showPoints;
     }
 
     @Override

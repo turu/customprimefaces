@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="73af3fef-5ae1-45b3-ab22-041e78a6693b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java" afterPath="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleEvent.java" afterPath="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="primefaces.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +35,7 @@
     <file path="/EnrollScheduleModel.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360716373928" ignored="false" />
     <file path="/EnrollScheduleEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361113381830" ignored="false" />
     <file path="/DefaultEnrollScheduleModel.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360753744963" ignored="false" />
-    <file path="/DefaultEnrollScheduleEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361113444251" ignored="false" />
+    <file path="/DefaultEnrollScheduleEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361113914481" ignored="false" />
     <file path="/enrollschedule.css" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360789207431" ignored="false" />
     <file path="/EnrollScheduleTemplate.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360760401720" ignored="false" />
     <file path="/EnrollScheduleEntryMoveEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360760082601" ignored="false" />
@@ -254,7 +251,7 @@
       <file leaf-file-name="DefaultEnrollScheduleEvent.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="224" column="21" selection-start="4843" selection-end="4843" vertical-scroll-proportion="0.88304096">
+            <state line="79" column="51" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.94152045">
               <folding />
             </state>
           </provider>
@@ -1147,7 +1144,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="21" selection-start="4843" selection-end="4843" vertical-scroll-proportion="0.88304096">
+        <state line="79" column="51" selection-start="1736" selection-end="1736" vertical-scroll-proportion="0.94152045">
           <folding />
         </state>
       </provider>
