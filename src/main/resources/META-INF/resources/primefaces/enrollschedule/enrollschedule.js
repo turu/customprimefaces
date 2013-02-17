@@ -39,7 +39,7 @@ var defaults = {
         if (width < 50) {
             $(element).css('width', 50 + 'px');
             var colWidth = view.getColWidth();
-            var viewWidth = view.getWidth();
+            var viewWidth = view.width;
             var leftOffset = $(element).left();
             console.log("col width = " + colWidth + ", total width = " + viewWidth + ", left offset = " + leftOffset);
             var colNumber = leftOffset / colWidth;
