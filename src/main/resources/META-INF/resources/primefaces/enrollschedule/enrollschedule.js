@@ -288,6 +288,9 @@ function Calendar(element, options, eventSources) {
 		if (!content) {
 			initialRender();
 		}else{
+            console.log("current views name: "  + currentView.name);
+            if(currentView.name == "agendaWeek")
+                content.width(1500);
 			calcSize();
 			markSizesDirty();
 			markEventsDirty();
