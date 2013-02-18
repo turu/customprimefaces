@@ -379,7 +379,10 @@ function Calendar(element, options, eventSources) {
 			}
 			content.css('overflow-x', 'hidden');
             console.log("newViewname= " + newViewName);
-            if(newViewName == "agendaWeek")content.css('width: 1500px');
+            if(newViewName == "agendaWeek"){
+                console.log("dupakupa");
+                content.width(1500);
+            }
 			
 			currentView = viewInstances[newViewName];
 			if (currentView) {
@@ -401,7 +404,9 @@ function Calendar(element, options, eventSources) {
 			renderView(); // after height has been set, will make absoluteViewElement's position=relative, then set to null
 			
 			content.css('overflow-x', '');
-            if(newViewName == "agendaWeek")content.css('width: 1500px');
+            if(newViewName == "agendaWeek"){
+
+            }
 			if (oldView) {
 				setMinHeight(content, 1);
 			}
