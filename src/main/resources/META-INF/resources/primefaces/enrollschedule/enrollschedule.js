@@ -304,8 +304,8 @@ function Calendar(element, options, eventSources) {
 		if (options.theme) {
 			element.addClass('ui-widget');
 		}
-		content = $("<div style='width: 1500 !important;'>" +
-            "</div><div class='fc-content' style='overflow-x: auto; position:relative'/></div>")
+		content = $("<div style='overflow-x: scroll'>" +
+        "<div class='fc-content' style='position:relative'/></div>")
 			.prependTo(element);
 		header = new Header(t, options);
 		headerElement = header.render();
@@ -374,6 +374,7 @@ function Calendar(element, options, eventSources) {
 				setMinHeight(content, 1); // needs to be 1 (not 0) for IE7, or else view dimensions miscalculated
 			}
 			content.css('overflow-x', 'scroll');
+            if(newViewName == "agendaWeek")content.css('width: 1500px');
 			
 			currentView = viewInstances[newViewName];
 			if (currentView) {
@@ -395,6 +396,7 @@ function Calendar(element, options, eventSources) {
 			renderView(); // after height has been set, will make absoluteViewElement's position=relative, then set to null
 			
 			content.css('overflow-x', 'auto');
+            if(newViewName == "agendaWeek")content.css('width: 1500px');
 			if (oldView) {
 				setMinHeight(content, 1);
 			}
