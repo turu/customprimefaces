@@ -378,6 +378,7 @@ function Calendar(element, options, eventSources) {
 				setMinHeight(content, 1); // needs to be 1 (not 0) for IE7, or else view dimensions miscalculated
 			}
 			content.css('overflow-x', 'hidden');
+            console.log("newViewname= " + newViewName);
             if(newViewName == "agendaWeek")content.css('width: 1500px');
 			
 			currentView = viewInstances[newViewName];
