@@ -145,6 +145,8 @@ public class EnrollScheduleRenderer extends CoreRenderer {
             .attr("periodic", schedule.isPeriodic(), true)
             .attr("autoColor", schedule.isAutoColor(), false)
             .attr("autoOpacity", schedule.isAutoOpacity(), false);
+        if (schedule.getWeekViewWidth() != 0)
+            wb.attr("weekViewWidth", schedule.getWeekViewWidth());
         
         encodeClientBehaviors(context, schedule, wb);
 

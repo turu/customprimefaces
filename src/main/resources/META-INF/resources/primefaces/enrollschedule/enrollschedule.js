@@ -37,7 +37,7 @@ var defaults = {
         var width = $(element).width(); //saving event's current width
 
         if (width < 50) {
-            $(element).css('width', 50 + 'px');
+            //$(element).css('width', 50 + 'px');
             /*var colWidth = view.getColWidth();
             var scheduleOffset = $('.fc-agenda-axis').offset().left + $('.fc-agenda-axis').width();
             var leftOffset = $(element).offset().left - scheduleOffset;
@@ -120,7 +120,9 @@ var defaults = {
 
     autoColor: false,
 
-    autoOpacity: false
+    autoOpacity: false,
+
+    weekViewWidth: 0
 	
 };
 
@@ -289,8 +291,8 @@ function Calendar(element, options, eventSources) {
 			initialRender();
 		}else{
             console.log("current views name: "  + currentView.name);
-            if(currentView.name == "agendaWeek")
-                content.width(1500);
+            if(currentView.name == "agendaWeek" && options.weekViewWidth != 0)
+                content.width(options.weekViewWidth);
 			calcSize();
 			markSizesDirty();
 			markEventsDirty();
@@ -379,9 +381,10 @@ function Calendar(element, options, eventSources) {
 			}
 			content.css('overflow-x', 'hidden');
             console.log("newViewname= " + newViewName);
-            if(newViewName == "agendaWeek"){
-                console.log("dupakupa");
-                content.width(1500);
+            if(newViewName == "agendaWeek" && options.weekViewWidth != 0){
+                content.width(options.weekViewWidth);
+            } else {
+                content.width(outerDiv.width);
             }
 			
 			currentView = viewInstances[newViewName];
@@ -404,9 +407,6 @@ function Calendar(element, options, eventSources) {
 			renderView(); // after height has been set, will make absoluteViewElement's position=relative, then set to null
 			
 			content.css('overflow-x', '');
-            if(newViewName == "agendaWeek"){
-
-            }
 			if (oldView) {
 				setMinHeight(content, 1);
 			}

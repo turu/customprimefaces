@@ -192,6 +192,13 @@
             <defaultValue>false</defaultValue>
             <description>If set to true, component will automatically adjust events opacity to reflect their importance</description>
         </attribute>
+        <attribute>
+            <name>weekViewWidth</name>
+            <required>false</required>
+            <defaultValue>0</defaultValue>
+            <type>java.lang.Integer</type>
+            <description>This attribute sets week view width to the specified value</description>
+        </attribute>
     </attributes>
     <resources>
         <resource>
