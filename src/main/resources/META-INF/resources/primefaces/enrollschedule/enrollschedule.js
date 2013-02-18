@@ -304,9 +304,9 @@ function Calendar(element, options, eventSources) {
 		if (options.theme) {
 			element.addClass('ui-widget');
 		}
-        $("<div style='overflow-x: scroll'/>").prependTo(element);
+        var outerDiv = $("<div style='overflow-x: scroll'/>").prependTo(element);
 		content = $("<div class='fc-content' style='width: 1500px; position:relative'/>")
-			.prependTo(element.eq(0));
+			.prependTo(outerDiv);
 		header = new Header(t, options);
 		headerElement = header.render();
 		if (headerElement) {
