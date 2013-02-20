@@ -294,7 +294,7 @@ function Calendar(element, options, eventSources) {
             if(currentView.name == "agendaWeek" && options.weekViewWidth != 0)
                 content.width(options.weekViewWidth);
             else
-                content.width(outerDiv.width);
+                content.width(outerDiv.width());
 			calcSize();
 			markSizesDirty();
 			markEventsDirty();
@@ -386,7 +386,8 @@ function Calendar(element, options, eventSources) {
             if(newViewName == "agendaWeek" && options.weekViewWidth != 0){
                 content.width(options.weekViewWidth);
             } else {
-                content.width(outerDiv.width);
+                console.log("outerDiv.width = " + outerDiv.width());
+                content.width(outerDiv.width());
             }
 			
 			currentView = viewInstances[newViewName];
@@ -4009,7 +4010,7 @@ function AgendaEventRenderer() {
 			"<div class='fc-event-content'>" +
 			"<div class='fc-event-title'>" +
 			htmlEscape(event.title + ", " + event.teacher + (event.place != "" ? ", " + event.place : "")) +
-			(event.activityType != "" ? "- " + event.activityType : "") + "</div>" +
+			(event.activityType != "" ? " - " + event.activityType : "") + "</div>" +
             (event.showPoints == "true" ? "<div class='fc-event-points'>" +
             htmlEscape(event.points) +
             "</div>" : "") +

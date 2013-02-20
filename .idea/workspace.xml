@@ -4,6 +4,7 @@
     <list default="true" readonly="true" id="73af3fef-5ae1-45b3-ab22-041e78a6693b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/primefaces.iml" afterPath="$PROJECT_DIR$/primefaces.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="primefaces.iws" />
@@ -20,16 +21,16 @@
     <file path="/EnrollSchedule.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360630434570" ignored="false" />
     <file path="/Dummy.txt" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361391449152" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/lib/org/primefaces/primefaces/3.5/primefaces-3.5.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360631688118" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361392471232" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361394016831" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/preferences-management/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361144363077" ignored="false" />
     <file path="/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361176073870" ignored="false" />
     <file path="/a.dummy" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360972705286" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782466185" ignored="false" />
     <file path="/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361126927880" ignored="false" />
-    <file path="/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361393807814" ignored="false" />
+    <file path="/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361395627218" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5b/primefaces-3.5b.jar!/META-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360674295537" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5b/primefaces-3.5b.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360674295537" ignored="false" />
-    <file path="/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361176396636" ignored="false" />
+    <file path="/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361395585722" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5d/primefaces-3.5d.jar!/META-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360687258793" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5d/primefaces-3.5d.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360687258793" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5d/primefaces-3.5d.jar!/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360687259592" ignored="false" />
@@ -213,26 +214,26 @@
       <file leaf-file-name="enrollschedule.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5400" column="73" selection-start="131197" selection-end="131197" vertical-scroll-proportion="0.1684435">
+            <state line="4012" column="42" selection-start="95837" selection-end="95837" vertical-scroll-proportion="0.3768116">
               <folding>
-                <marker date="1361393802505" expanded="false" signature="7255:7271" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="7343:7360" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="17676:17686" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="53008:53018" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="53591:53608" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="54321:54361" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="70000:70010" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="70685:70702" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="71504:71549" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="71658:71698" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="71760:71770" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="71974:71991" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="72667:72729" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="72800:72844" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="72927:72967" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="73052:73062" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="73555:73572" placeholder="..." />
-                <marker date="1361393802505" expanded="false" signature="125836:125863" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="7257:7273" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="7345:7362" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="17749:17759" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="53081:53091" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="53664:53681" placeholder="..." />
+                <marker date="1361395773371" expanded="true" signature="54394:54434" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="70073:70083" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="70758:70775" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="71577:71622" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="71731:71771" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="71833:71843" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="72047:72064" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="72740:72802" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="72873:72917" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="73000:73040" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="73125:73135" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="73628:73645" placeholder="..." />
+                <marker date="1361395773371" expanded="false" signature="125910:125937" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -295,7 +296,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+            <state line="13" column="59" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -333,8 +334,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css" />
         <option value="$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" />
       </list>
     </option>
   </component>
@@ -688,7 +689,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -704,11 +705,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33460367" sideWeight="0.641115" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33460367" sideWeight="0.641115" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17530487" sideWeight="0.641115" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35888502" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35888502" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -861,33 +862,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+        <state line="13" column="59" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5400" column="73" selection-start="131197" selection-end="131197" vertical-scroll-proportion="0.1684435">
+        <state line="4012" column="42" selection-start="95837" selection-end="95837" vertical-scroll-proportion="0.3768116">
           <folding>
-            <marker date="1361393802505" expanded="false" signature="7255:7271" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="7343:7360" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="17676:17686" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="53008:53018" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="53591:53608" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="54321:54361" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="70000:70010" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="70685:70702" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="71504:71549" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="71658:71698" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="71760:71770" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="71974:71991" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="72667:72729" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="72800:72844" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="72927:72967" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="73052:73062" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="73555:73572" placeholder="..." />
-            <marker date="1361393802505" expanded="false" signature="125836:125863" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="7257:7273" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="7345:7362" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="17749:17759" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="53081:53091" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="53664:53681" placeholder="..." />
+            <marker date="1361395773371" expanded="true" signature="54394:54434" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="70073:70083" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="70758:70775" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="71577:71622" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="71731:71771" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="71833:71843" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="72047:72064" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="72740:72802" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="72873:72917" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="73000:73040" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="73125:73135" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="73628:73645" placeholder="..." />
+            <marker date="1361395773371" expanded="false" signature="125910:125937" placeholder="..." />
           </folding>
         </state>
       </provider>
