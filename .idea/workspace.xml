@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="73af3fef-5ae1-45b3-ab22-041e78a6693b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java" afterPath="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml" afterPath="$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/primefaces.iml" afterPath="$PROJECT_DIR$/primefaces.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="primefaces.iws" />
@@ -21,18 +18,18 @@
     <file path="/EnrollUserDetailsService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361031599373" ignored="false" />
     <file path="/enrollSchedule.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361175243555" ignored="false" />
     <file path="/EnrollSchedule.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360630434570" ignored="false" />
-    <file path="/Dummy.txt" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361174983482" ignored="false" />
+    <file path="/Dummy.txt" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361391449152" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/lib/org/primefaces/primefaces/3.5/primefaces-3.5.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360631688118" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361149842446" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361175380926" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/preferences-management/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361144363077" ignored="false" />
-    <file path="/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361143497250" ignored="false" />
+    <file path="/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361176073870" ignored="false" />
     <file path="/a.dummy" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360972705286" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782466185" ignored="false" />
     <file path="/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361126927880" ignored="false" />
-    <file path="/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361175072569" ignored="false" />
+    <file path="/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361391986148" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5b/primefaces-3.5b.jar!/META-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360674295537" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5b/primefaces-3.5b.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360674295537" ignored="false" />
-    <file path="/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361174513734" ignored="false" />
+    <file path="/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361176396636" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5d/primefaces-3.5d.jar!/META-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360687258793" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5d/primefaces-3.5d.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360687258793" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5d/primefaces-3.5d.jar!/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360687259592" ignored="false" />
@@ -154,7 +151,7 @@
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/TestScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361127388979" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/TestScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361127416183" ignored="false" />
     <file path="/TestScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361127405838" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/scheduletester/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361144380906" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/scheduletester/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361176076185" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,29 +210,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="enrollschedule.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="enrollschedule.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="807" column="60" selection-start="19234" selection-end="19234" vertical-scroll-proportion="0.02631579">
+            <state line="309" column="83" selection-start="7155" selection-end="7155" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1361174530010" expanded="false" signature="7191:7207" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="7279:7296" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="17612:17622" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="52944:52954" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="53527:53544" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="54257:54297" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="69936:69946" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="70621:70638" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="71440:71485" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="71594:71634" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="71696:71706" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="71910:71927" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="72603:72665" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="72736:72780" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="72863:72903" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="72988:72998" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="73491:73508" placeholder="..." />
-                <marker date="1361174530010" expanded="false" signature="125762:125789" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="7255:7271" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="7343:7360" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="17676:17686" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="53008:53018" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="53591:53608" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="54321:54361" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="70000:70010" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="70685:70702" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="71504:71549" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="71658:71698" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="71760:71770" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="71974:71991" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="72667:72729" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="72800:72844" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="72927:72967" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="73052:73062" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="73555:73572" placeholder="..." />
+                <marker date="1361176399925" expanded="false" signature="125826:125853" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -295,10 +292,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+            <state line="8" column="19" selection-start="426" selection-end="426" vertical-scroll-proportion="0.063025214">
               <folding />
             </state>
           </provider>
@@ -334,10 +331,10 @@
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleEvent.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -385,8 +382,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="27" />
-    <option name="width" value="1922" />
-    <option name="height" value="1174" />
+    <option name="width" value="1368" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -416,20 +413,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="primefaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="primefaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -510,6 +493,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="primefaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -525,9 +522,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -577,19 +574,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -616,6 +600,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -690,7 +687,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1922" height="1174" extended-state="6" />
+    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -707,11 +704,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3285102" sideWeight="0.6401591" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33460367" sideWeight="0.641115" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17577706" sideWeight="0.6401591" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35984096" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17530487" sideWeight="0.641115" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35888502" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -778,6 +775,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/event/ScheduleEntryResizeEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="29" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.99" />
@@ -805,9 +809,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources-maven-jsf/ui/ring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleEvent.java">
@@ -833,9 +835,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java-templates/org/primefaces/component/enrollschedule/EnrollScheduleTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="58" selection-start="235" selection-end="235" vertical-scroll-proportion="0.12875536">
-          <folding />
-        </state>
+        <state line="8" column="58" selection-start="235" selection-end="235" vertical-scroll-proportion="0.12875536" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml">
@@ -859,36 +859,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="309" column="83" selection-start="7155" selection-end="7155" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1361176399925" expanded="false" signature="7255:7271" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="7343:7360" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="17676:17686" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="53008:53018" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="53591:53608" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="54321:54361" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="70000:70010" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="70685:70702" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="71504:71549" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="71658:71698" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="71760:71770" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="71974:71991" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="72667:72729" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="72800:72844" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="72927:72967" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="73052:73062" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="73555:73572" placeholder="..." />
+            <marker date="1361176399925" expanded="false" signature="125826:125853" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="807" column="60" selection-start="19234" selection-end="19234" vertical-scroll-proportion="0.02631579">
-          <folding>
-            <marker date="1361174530010" expanded="false" signature="7191:7207" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="7279:7296" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="17612:17622" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="52944:52954" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="53527:53544" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="54257:54297" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="69936:69946" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="70621:70638" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="71440:71485" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="71594:71634" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="71696:71706" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="71910:71927" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="72603:72665" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="72736:72780" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="72863:72903" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="72988:72998" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="73491:73508" placeholder="..." />
-            <marker date="1361174530010" expanded="false" signature="125762:125789" placeholder="..." />
-          </folding>
+        <state line="8" column="19" selection-start="426" selection-end="426" vertical-scroll-proportion="0.063025214">
+          <folding />
         </state>
       </provider>
     </entry>
