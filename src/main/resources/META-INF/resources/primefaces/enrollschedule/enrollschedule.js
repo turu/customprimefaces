@@ -29,33 +29,6 @@ var defaults = {
 		right: 'today prev,next'
 	},
 
-    eventRender: function (event, element, view) {
-    },
-
-    //This gimmicky function tries to keep all events at least 50px wide
-    eventAfterRender: function (event, element, view) {
-        var width = $(element).width(); //saving event's current width
-
-        if (width < 50) {
-            //$(element).css('width', 50 + 'px');
-            /*var colWidth = view.getColWidth();
-            var scheduleOffset = $('.fc-agenda-axis').offset().left + $('.fc-agenda-axis').width();
-            var leftOffset = $(element).offset().left - scheduleOffset;
-            console.log("col width = " + colWidth + ", scheduleOffset = " + scheduleOffset + ", left offset = " + leftOffset);
-            var colNumber = Math.floor(leftOffset / colWidth);
-
-            console.log("col number = " + colNumber);
-
-            //trying to influence col width
-            $('.fc-col' + colNumber).css('width', colWidth + 50 - width);*/
-
-            //var leftOffset = $(element).left();
-            //var newOffset = leftOffset + 50 - width;
-
-            //$(element).css('left', newOffset + 'px');
-        }
-    },
-
 	weekends: true,
 	
 	// editing
@@ -198,7 +171,7 @@ $.fn.fullCalendar = function(options) {
             week: 'ddd',
             day: 'dddd'
         };
-        console.log("options.columnFormat has been set to: " + options.columnFormat + "\n");
+//        console.log("options.columnFormat has been set to: " + options.columnFormat + "\n");
     }
 	
 	
@@ -290,11 +263,14 @@ function Calendar(element, options, eventSources) {
 		if (!content) {
 			initialRender();
 		}else{
-            console.log("current views name: "  + currentView.name);
-            if(currentView.name == "agendaWeek" && options.weekViewWidth != 0)
+//            console.log("current views name: "  + currentView.name);
+            if(currentView.name == "agendaWeek" && options.weekViewWidth != 0) {
                 content.width(options.weekViewWidth);
-            else
+                $("<table class='fc-header'/>").width(options.weekViewWidth);
+            } else {
                 content.width(outerDiv.width());
+                $("<table class='fc-header'/>").width("100%");
+            }
 			calcSize();
 			markSizesDirty();
 			markEventsDirty();
@@ -313,7 +289,7 @@ function Calendar(element, options, eventSources) {
 			element.addClass('ui-widget');
 		}
         outerDiv = $("<div style='overflow-x: auto'/>").prependTo(element);
-		content = $("<div class='fc-content' style='position:relative'/>")
+		content = $("<div class='fc-content' style='position:relative; margin: 0px auto'/>")
 			.prependTo(outerDiv);
 		header = new Header(t, options);
 		headerElement = header.render();
@@ -382,12 +358,14 @@ function Calendar(element, options, eventSources) {
 				setMinHeight(content, 1); // needs to be 1 (not 0) for IE7, or else view dimensions miscalculated
 			}
 			content.css('overflow-x', 'hidden');
-            console.log("newViewname= " + newViewName);
+//            console.log("newViewname= " + newViewName);
             if(newViewName == "agendaWeek" && options.weekViewWidth != 0){
                 content.width(options.weekViewWidth);
+                $("<table class='fc-header'/>").width(options.weekViewWidth);
             } else {
-                console.log("outerDiv.width = " + outerDiv.width());
+//                console.log("outerDiv.width = " + outerDiv.width());
                 content.width(outerDiv.width());
+                $("<table class='fc-header'/>").width("100%");
             }
 			
 			currentView = viewInstances[newViewName];
@@ -757,7 +735,7 @@ function Header(calendar, options) {
 		tm = options.theme ? 'ui' : 'fc';
 		var sections = options.header;
 		if (sections) {
-			element = $("<table class='fc-header' style='width:100%'/>")
+			element = $("<table class='fc-header' style='width:100%; margin: 0px auto'/>")
 				.append(
 					$("<tr/>")
 						.append(renderSection('left'))
@@ -1679,7 +1657,12 @@ function _exclEndDay(end, allDay) {
 
 
 function segCmp(a, b) {
-	return (b.msLength - a.msLength) * 100 + (a.event.start - b.event.start);
+	var tmp =  (b.msLength - a.msLength) * 100 + (a.event.start - b.event.start);
+    if (tmp == 0) {
+        return a.order - b.order;
+    } else {
+        return tmp;
+    }
 }
 
 
@@ -1725,7 +1708,8 @@ function sliceSegs(events, visEventEnds, start, end) {
 				end: segEnd,
 				isStart: isStart,
 				isEnd: isEnd,
-				msLength: segEnd - segStart
+				msLength: segEnd - segStart,
+                order: i
 			});
 		}
 	} 
@@ -1998,7 +1982,7 @@ function getSkinCss(event, opt) {
     if (event.possible == "false") {
         opacity = .5;                                   //unless event's impossible when it's 0.5
     }
-    console.log("opacity=" + opacity + "\n" + event.possible + " " + opt('dragOpacity'));
+//    console.log("opacity=" + opacity + "\n" + event.possible + " " + opt('dragOpacity'));
 
 	var statements = [];
 	if (backgroundColor) {
@@ -2011,7 +1995,7 @@ function getSkinCss(event, opt) {
 		statements.push('color:' + textColor);
 	}
     if (opt('autoOpacity')) {
-        console.log("autoOpacity is on\n");
+//        console.log("autoOpacity is on\n");
         statements.push('opacity:' + opacity);
         //statements.push('filter: alpha(opacity=' + parseInt(event.importance) + 10 + ')');    //for IE
     }
@@ -3147,7 +3131,7 @@ function AgendaView(element, calendar, viewName) {
 		}
 		
 		slotScroller =
-			$("<div style='position:absolute;width:100%;overflow-x:hidden;overflow-y:auto'/>")
+			$("<div style='position:absolute;width:100%;overflow-x:hidden;overflow-y:hidden'/>")
 				.appendTo(slotLayer);
 				
 		slotContent =
@@ -3261,7 +3245,8 @@ function AgendaView(element, calendar, viewName) {
 		var slotTableWidth = slotScroller[0].clientWidth; // needs to be done after axisWidth (for IE7)
 		//slotTable.width(slotTableWidth);
 		
-		gutterWidth = slotScroller.width() - slotTableWidth;
+//		gutterWidth = slotScroller.width() - slotTableWidth;
+        gutterWidth = 0;
 		if (gutterWidth) {
 			setOuterWidth(gutterCells, gutterWidth);
 			gutterCells
@@ -3986,7 +3971,7 @@ function AgendaEventRenderer() {
 		}
         if (event.possible == "false") {
             classes.push('fc-event-impossible');
-            console.log("event impossible\n");
+//            console.log("event impossible\n");
         }
 		classes = classes.concat(event.className);
 		if (event.source) {
@@ -5464,7 +5449,7 @@ PrimeFaces.widget.EnrollSchedule = PrimeFaces.widget.BaseWidget.extend({
                         var update = updates.eq(i),
                         id = update.attr('id'),
                         data = update.text();
-                        console.log("event source data=" + data + "\n");
+//                        console.log("event source data=" + data + "\n");
 
                         if(id == _self.id){
                             var events = $.parseJSON(data).events;

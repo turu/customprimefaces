@@ -4,7 +4,6 @@
     <list default="true" readonly="true" id="73af3fef-5ae1-45b3-ab22-041e78a6693b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/primefaces.iml" afterPath="$PROJECT_DIR$/primefaces.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="primefaces.iws" />
@@ -13,28 +12,28 @@
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5/primefaces-3.5.jar!/META-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360624730934" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5/primefaces-3.5.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360624730934" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/.idea/libraries/Maven__org_primefaces_primefaces_3_5.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360639933001" ignored="false" />
-    <file path="/fragment.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360975724369" ignored="false" />
+    <file path="/fragment.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362049407095" ignored="false" />
     <file path="/EnrollScheduleRenderer.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361174755680" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/EnrollUserDetailsService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634523" ignored="false" />
     <file path="/EnrollUserDetailsService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361031599373" ignored="false" />
     <file path="/enrollSchedule.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361175243555" ignored="false" />
     <file path="/EnrollSchedule.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360630434570" ignored="false" />
-    <file path="/Dummy.txt" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361391449152" ignored="false" />
+    <file path="/Dummy.txt" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362064220677" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/lib/org/primefaces/primefaces/3.5/primefaces-3.5.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360631688118" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361394016831" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/preferences-management/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361144363077" ignored="false" />
-    <file path="/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361176073870" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362067700574" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/preferences-management/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362067304127" ignored="false" />
+    <file path="/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362065098425" ignored="false" />
     <file path="/a.dummy" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360972705286" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360782466185" ignored="false" />
-    <file path="/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361126927880" ignored="false" />
-    <file path="/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361395627218" ignored="false" />
+    <file path="/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361987729793" ignored="false" />
+    <file path="/pom.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362074122965" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5b/primefaces-3.5b.jar!/META-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360674295537" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5b/primefaces-3.5b.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360674295537" ignored="false" />
-    <file path="/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361395585722" ignored="false" />
+    <file path="/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362074000456" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5d/primefaces-3.5d.jar!/META-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360687258793" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5d/primefaces-3.5d.jar!/META-INF/primefaces-p.taglib.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360687258793" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/org/primefaces/primefaces/3.5d/primefaces-3.5d.jar!/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360687259592" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/repo/org/primefaces/primefaces/maven-metadata.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361149398950" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/repo/org/primefaces/primefaces/maven-metadata.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361452252360" ignored="false" />
     <file path="/EnrollScheduleModel.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360716373928" ignored="false" />
     <file path="/EnrollScheduleEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361114517239" ignored="false" />
     <file path="/DefaultEnrollScheduleModel.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360753744963" ignored="false" />
@@ -45,114 +44,168 @@
     <file path="/EnrollScheduleEntryResizeEvent.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360760323551" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/RingBean.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360872963160" ignored="false" />
     <file path="/RingBean.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360872961812" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/preferences-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
-    <file path="/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361128247005" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/preferences-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362020694799" ignored="false" />
+    <file path="/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362049736994" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/ProgressBean.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360861023313" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/resources/applicationContext.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360867502023" ignored="false" />
     <file path="/applicationContext.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360867368124" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/subject-selection/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Group.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/subject-selection/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362057577898" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Group.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361477585411" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/admin-panel/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240683" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Enroll.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Enroll.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361478845791" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/admin-panel/list.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874264386" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/PersonDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240683" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362057577898" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/PersonDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362020694799" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362057577898" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/top-flow-with-embedded-subflow/main.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874264387" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/EnrollConfiguration.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/EnrollConfiguration.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361465648746" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/top-flow-with-embedded-subflow/embedded-flow/main.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874264387" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/PersonService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/PersonService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362057577897" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/admin-event-selection/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874264386" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Person.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361041008647" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Person.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361494948793" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/top-flow-with-embedded-subflow/embedded-flow/confirmation.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874264386" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/ConfigurationDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/event-selection/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/event-selection/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/event-selection/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362057577898" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/event-selection/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362051741978" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/webflow/autocomplete/PersonConverter.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874268043" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/RingBean.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360874441375" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361127003945" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361987736559" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/ProgressBean.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360873797936" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/RingController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964346147" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/SubjectChoosingService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
-    <file path="/SubjectChoosingService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360877274370" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/PreferencesManagementController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/SubjectChoosingService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361452951859" ignored="false" />
+    <file path="/SubjectChoosingService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361450001311" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/PreferencesManagementController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361452252360" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/IPreferencesManagementController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360877565212" ignored="false" />
     <file path="/PreferencesManagementController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360974106012" ignored="false" />
     <file path="/IPreferencesManagementController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360877564322" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/IPreferencesManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964345460" ignored="false" />
-    <file path="/IPreferencesManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360881372321" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/PreferencesManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
-    <file path="/PreferencesManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361020630213" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/IPersonDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/IPreferencesManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361452252360" ignored="false" />
+    <file path="/IPreferencesManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361448832762" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/PreferencesManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361591126027" ignored="false" />
+    <file path="/PreferencesManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361483989679" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/IPersonDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361593831166" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Teacher.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/EventDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/EnrollmentDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/new-enrollment/basic-configuration/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/SubjectDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/IEnrollmentDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/EnrollmentDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361452252360" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/new-enrollment/basic-configuration/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361464784731" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/SubjectDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361494948793" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/IEnrollmentDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361593842973" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/subject-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/EnrollmentService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/new-enrollment/basic-configuration/basic-configuration.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360893907640" ignored="false" />
-    <file path="/basic-configuration.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360893429181" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/new-enrollment/basic-configuration/basic-configuration.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361465394871" ignored="false" />
+    <file path="/basic-configuration.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361465394871" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/RequestContextPhaseListener.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964345460" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964345460" ignored="false" />
     <file path="/faces-config.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360894031233" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Term.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
-    <file path="/Term.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360979473747" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/StudentPointsPerTerm.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Term.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362020694799" ignored="false" />
+    <file path="/Term.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361590902280" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/StudentPointsPerTerm.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361477508482" ignored="false" />
     <file path="/StudentPointsPerTerm.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966311038" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/ISubjectDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/subject-management/subject-management.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/ISubjectDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361593724115" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/subject-management/subject-management.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361468865533" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/IEnrollmentService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Subject.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/subject-selection/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964345460" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Subject.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361545952088" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/subject-selection/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362020694799" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/admin-panel/new-enrollment/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240683" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/people-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/people-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361452252360" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/new-enrollment/final-configuration/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/new-enrollment/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/configure-already-created-enrollment/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/term-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/term-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361585724716" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/EnrollmentModeService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/SelectableDataModelForSubjects.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/SelectableDataModelForSubjects.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361452252360" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/Event.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/ITeacherDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/IGenericDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/GenericDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/ITeacherDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361593741199" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/IGenericDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361593617656" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/GenericDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361593606893" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/TeacherDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/IGenericEditableService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/TeacherService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/GenericEditableService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/ISubjectChoosingService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/ISubjectChoosingService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361452963456" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/teacher-management/teacher-management.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/teacher-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/EnrollDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360964240997" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/enroll-me.iml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/user-groups/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/enroll-me.iml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361985285701" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/user-groups/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362057577897" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/global-people-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/GroupDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360966200769" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/ITermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/ITermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361985200154" ignored="false" />
     <file path="/ITermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360968429411" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/TermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
-    <file path="/TermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360970113278" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/TermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361992396537" ignored="false" />
+    <file path="/TermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361482955257" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/IStudentPointsPerTermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360970222942" ignored="false" />
     <file path="/IStudentPointsPerTermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360970220937" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/IStudentPointsPerTermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/StudentPointsPerTermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/IStudentPointsPerTermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361985200154" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/repository/StudentPointsPerTermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361985200154" ignored="false" />
     <file path="/StudentPointsPerTermDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360972155997" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/ProgressRingController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
-    <file path="/ProgressRingController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361023180736" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/ProgressToken.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361032634807" ignored="false" />
-    <file path="/ProgressToken.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361023481664" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/ProgressRingController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361994365872" ignored="false" />
+    <file path="/ProgressRingController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361994364639" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/ProgressToken.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361994485591" ignored="false" />
+    <file path="/ProgressToken.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361994483793" ignored="false" />
     <file path="/Subject.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1360978418719" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/global-people-management/list.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/list.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361028844402" ignored="false" />
-    <file path="/PersonService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361031527186" ignored="false" />
-    <file path="/Person.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361040973964" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/scheduletester/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361128252798" ignored="false" />
+    <file path="/PersonService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361407122311" ignored="false" />
+    <file path="/Person.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361486725054" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/scheduletester/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361573414677" ignored="false" />
     <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/preferencesmanagement/TestScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361127388979" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/TestScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361392754658" ignored="false" />
-    <file path="/TestScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361392725133" ignored="false" />
-    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/scheduletester/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361176076185" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/TestScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361552534470" ignored="false" />
+    <file path="/TestScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361552534122" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/scheduletester/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361556502949" ignored="false" />
+    <file path="/ISubjectDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361593722867" ignored="false" />
+    <file path="/SubjectDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361407780726" ignored="false" />
+    <file path="/EnrollConfiguration.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361465648050" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/PersonEnrollPermissionService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361452252360" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/converter/TeacherConverter.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361452252360" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/SubjectChoosingController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361454602824" ignored="false" />
+    <file path="/subject-management.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361468858491" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/admin-panel/term-management/term-management.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361586712123" ignored="false" />
+    <file path="/term-management.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361586672669" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/termmanagement/ScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361496283204" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/termmanagement/AdminScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361590996264" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/TermManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362013566014" ignored="false" />
+    <file path="/TermManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362010790171" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/ITermManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361496717353" ignored="false" />
+    <file path="/ITermManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361496712881" ignored="false" />
+    <file path="/AdminScheduleController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361588912660" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/converter/SubjectConverter.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361544883490" ignored="false" />
+    <file path="/SubjectConverter.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361544872340" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/model/TermPK.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361590870737" ignored="false" />
+    <file path="/TermPK.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361590831815" ignored="false" />
+    <file path="/GenericDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361593605947" ignored="false" />
+    <file path="/IGenericDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361593617656" ignored="false" />
+    <file path="/ITeacherDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361593741199" ignored="false" />
+    <file path="/IPersonDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361593831166" ignored="false" />
+    <file path="/IEnrollmentDAO.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361593841090" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/AntTermFileController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362005113801" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/results/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361985200154" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/results/subject-results.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361985200154" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/results/teacher-results.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361985200154" ignored="false" />
+    <file path="/AntTermFileController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1361993578702" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/webflowprimefaces/Procfile" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362004411071" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/Procfile" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362005011386" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/groupmanagement/SubjectGroupManagementController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362005113801" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/group-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362057577897" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/group-management/list.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362020694799" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/groupmanagement/GroupManagementController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362020694799" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/GroupManagementService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362051741979" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/AntPreferencesFileController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362020694799" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/AntGroupFileController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362020694799" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/AntInputFileController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362047157733" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/account-management/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362057577897" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/account-management/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362053477981" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/pass-reset/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362057577898" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/pass-reset/view.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362060304832" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/controller/PassResetController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362053688546" ignored="false" />
+    <file path="/PassResetController.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362053681025" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/PassResetService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362059639697" ignored="false" />
+    <file path="/PassResetService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362059629752" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/java/pl/agh/enrollme/service/IPassResetService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362056132859" ignored="false" />
+    <file path="/IPassResetService.java" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362049758552" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/views/login.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362051741978" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/results/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362057577898" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/layouts/standard.xhtml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362057577898" ignored="false" />
+    <file path="$USER_HOME$/git/heroku/enroll-me/src/main/webapp/WEB-INF/flows/main/final-schedule/flow.xml" changelist="73af3fef-5ae1-45b3-ab22-041e78a6693b" time="1362057577898" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,29 +264,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="enrollschedule.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="enrollschedule.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4012" column="42" selection-start="95837" selection-end="95837" vertical-scroll-proportion="0.3768116">
+            <state line="97" column="4" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1361395773371" expanded="false" signature="7257:7273" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="7345:7362" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="17749:17759" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="53081:53091" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="53664:53681" placeholder="..." />
-                <marker date="1361395773371" expanded="true" signature="54394:54434" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="70073:70083" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="70758:70775" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="71577:71622" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="71731:71771" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="71833:71843" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="72047:72064" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="72740:72802" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="72873:72917" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="73000:73040" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="73125:73135" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="73628:73645" placeholder="..." />
-                <marker date="1361395773371" expanded="false" signature="125910:125937" placeholder="..." />
+                <marker date="1362074123049" expanded="true" signature="6318:6334" placeholder="..." />
+                <marker date="1362074123049" expanded="true" signature="6406:6441" placeholder="..." />
+                <marker date="1362074123049" expanded="true" signature="16973:17001" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="52450:52460" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="53033:53050" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="53763:53803" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="69442:69452" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="70127:70144" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="70946:70991" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="71100:71140" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="71202:71212" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="71416:71433" placeholder="..." />
+                <marker date="1362074123049" expanded="true" signature="72109:72173" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="72244:72288" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="72371:72411" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="72496:72506" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="72999:73016" placeholder="..." />
+                <marker date="1362074123049" expanded="false" signature="125310:125337" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -242,7 +295,7 @@
       <file leaf-file-name="enrollschedule.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="11" selection-start="1579" selection-end="1589" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -251,7 +304,7 @@
       <file leaf-file-name="EnrollScheduleRenderer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="39" selection-start="5288" selection-end="5288" vertical-scroll-proportion="0.0">
+            <state line="117" column="53" selection-start="5145" selection-end="5145" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -260,7 +313,7 @@
       <file leaf-file-name="DefaultEnrollScheduleModel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="10" column="36" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -278,7 +331,7 @@
       <file leaf-file-name="DefaultEnrollScheduleEvent.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="46" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+            <state line="248" column="46" selection-start="5487" selection-end="5487" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -293,10 +346,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="59" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
+            <state line="7" column="36" selection-start="406" selection-end="406" vertical-scroll-proportion="0.39473686">
               <folding />
             </state>
           </provider>
@@ -334,8 +387,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css" />
         <option value="$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -344,6 +397,11 @@
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="release" />
+      </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -377,14 +435,18 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Profiles" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
+        </PATH_ELEMENT>
       </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="27" />
+    <option name="x" value="252" />
+    <option name="y" value="1200" />
     <option name="width" value="1368" />
-    <option name="height" value="742" />
+    <option name="height" value="769" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -688,8 +750,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
-    <editor active="false" />
+    <frame x="252" y="1200" width="1368" height="769" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -705,11 +767,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33460367" sideWeight="0.641115" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33384147" sideWeight="0.6589018" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17530487" sideWeight="0.641115" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35888502" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2492378" sideWeight="0.6589018" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34109816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -778,7 +840,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+        <state line="18" column="57" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -813,6 +875,11 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java-templates/org/primefaces/component/enrollschedule/EnrollScheduleTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="58" selection-start="235" selection-end="235" vertical-scroll-proportion="0.12875536" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/EnrollScheduleEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="22" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
@@ -820,16 +887,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="11" selection-start="1579" selection-end="1589" vertical-scroll-proportion="0.0">
+        <state line="248" column="46" selection-start="5487" selection-end="5487" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java-templates/org/primefaces/component/enrollschedule/EnrollScheduleTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="58" selection-start="235" selection-end="235" vertical-scroll-proportion="0.12875536" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources-maven-jsf/ui/enrollSchedule.xml">
@@ -839,57 +901,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="53" selection-start="5145" selection-end="5145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="36" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/component/enrollschedule/EnrollScheduleRenderer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="39" selection-start="5288" selection-end="5288" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/primefaces/model/DefaultEnrollScheduleEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="46" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="97" column="4" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1362074123049" expanded="true" signature="6318:6334" placeholder="..." />
+            <marker date="1362074123049" expanded="true" signature="6406:6441" placeholder="..." />
+            <marker date="1362074123049" expanded="true" signature="16973:17001" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="52450:52460" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="53033:53050" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="53763:53803" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="69442:69452" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="70127:70144" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="70946:70991" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="71100:71140" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="71202:71212" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="71416:71433" placeholder="..." />
+            <marker date="1362074123049" expanded="true" signature="72109:72173" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="72244:72288" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="72371:72411" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="72496:72506" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="72999:73016" placeholder="..." />
+            <marker date="1362074123049" expanded="false" signature="125310:125337" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="59" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
+        <state line="7" column="36" selection-start="406" selection-end="406" vertical-scroll-proportion="0.39473686">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/primefaces/enrollschedule/enrollschedule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4012" column="42" selection-start="95837" selection-end="95837" vertical-scroll-proportion="0.3768116">
-          <folding>
-            <marker date="1361395773371" expanded="false" signature="7257:7273" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="7345:7362" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="17749:17759" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="53081:53091" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="53664:53681" placeholder="..." />
-            <marker date="1361395773371" expanded="true" signature="54394:54434" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="70073:70083" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="70758:70775" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="71577:71622" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="71731:71771" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="71833:71843" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="72047:72064" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="72740:72802" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="72873:72917" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="73000:73040" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="73125:73135" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="73628:73645" placeholder="..." />
-            <marker date="1361395773371" expanded="false" signature="125910:125937" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
