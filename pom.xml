@@ -22,7 +22,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-	
+
     <dependencies>
         <dependency>
             <groupId>org.glassfish</groupId>
@@ -124,7 +124,7 @@
                 <directory>src/main/resources</directory>
             </resource>
         </resources>
-		
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -216,7 +216,7 @@
                     </execution>
                 </executions>
             </plugin>
-            
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
@@ -225,7 +225,7 @@
                     <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
-            
+
             <plugin>
                 <groupId>net.alchim31.maven</groupId>
                 <artifactId>yuicompressor-maven-plugin</artifactId>
@@ -337,9 +337,9 @@
                     </aggregations>
                 </configuration>
             </plugin>
- 
+
         </plugins>
-        
+
         <extensions>
             <extension>
                 <groupId>org.apache.maven.wagon</groupId>
@@ -349,7 +349,7 @@
         </extensions>
 
     </build>
-    
+
     <distributionManagement>
         <repository>
             <id>prime-repo</id>
