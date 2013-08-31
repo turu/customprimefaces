@@ -5,4 +5,7 @@
 *.war
 *.ear
 
-.idea/*
+.idea/
+primefaces.iml
+dev-specific.properties
+target/
