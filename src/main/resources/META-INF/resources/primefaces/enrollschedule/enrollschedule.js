@@ -193,10 +193,19 @@
         $.extend(true, defaults, d);
     }
 
-    function updateHeaderWidth() {
+    function updateHeaderWidth(content, options,viewName) {
+        if(viewName == "agendaWeek" && options.weekViewWidth != 0){
+            content.width(options.weekViewWidth);
+        } else {
+            content.width(outerDiv.width());
+        }
+        console.log([$(".fc-header") ,$(".fc-content") ]);
+        console.log(options);
+        console.log([$(".fc-header").width() ,$(".fc-content").width() ]);
         if ($(".fc-header") != null && $(".fc-content") != null) {
             $(".fc-header").width($(".fc-content").width());
         }
+
     }
 
     function Calendar(element, options, eventSources) {
@@ -274,7 +283,7 @@
                 markEventsDirty();
                 renderView(inc);
             }
-            updateHeaderWidth();
+            updateHeaderWidth(content, options,currentView.name);
         }
 
 
@@ -355,7 +364,8 @@
                     setMinHeight(content, 1); // needs to be 1 (not 0) for IE7, or else view dimensions miscalculated
                 }
                 content.css('overflow-x', 'hidden');
-                updateHeaderWidth();
+
+                updateHeaderWidth(content,options,newViewName);
 
                 currentView = viewInstances[newViewName];
                 if (currentView) {
