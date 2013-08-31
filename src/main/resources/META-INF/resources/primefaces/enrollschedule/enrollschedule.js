@@ -193,11 +193,11 @@
         $.extend(true, defaults, d);
     }
 
-    function updateHeaderWidth(content, options,viewName) {
+    function updateSheduleWidth(content, options,viewName) {
         if(viewName == "agendaWeek" && options.weekViewWidth != 0){
             content.width(options.weekViewWidth);
         } else {
-            content.width(outerDiv.width());
+            content.width("100%");
         }
         console.log([$(".fc-header") ,$(".fc-content") ]);
         console.log(options);
@@ -283,7 +283,7 @@
                 markEventsDirty();
                 renderView(inc);
             }
-            updateHeaderWidth(content, options,currentView.name);
+            updateSheduleWidth(content, options,currentView.name);
         }
 
 
@@ -365,7 +365,7 @@
                 }
                 content.css('overflow-x', 'hidden');
 
-                updateHeaderWidth(content,options,newViewName);
+                updateSheduleWidth(content,options,newViewName);
 
                 currentView = viewInstances[newViewName];
                 if (currentView) {
