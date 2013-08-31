@@ -119,7 +119,6 @@
     };
 
 
-
     var fc = $.fullCalendar = { version: "1.5.2" };
     var fcViews = fc.views = {};
 
@@ -193,19 +192,16 @@
         $.extend(true, defaults, d);
     }
 
-    function updateSheduleWidth(content, options,viewName) {
-        if(viewName == "agendaWeek" && options.weekViewWidth != 0){
+    function updateSheduleWidth(content, options) {
+        if (options.weekViewWidth != 0) {
             content.width(options.weekViewWidth);
         } else {
             content.width("100%");
         }
-        console.log([$(".fc-header") ,$(".fc-content") ]);
-        console.log(options);
-        console.log([$(".fc-header").width() ,$(".fc-content").width() ]);
         if ($(".fc-header") != null && $(".fc-content") != null) {
             $(".fc-header").width($(".fc-content").width());
         }
-
+        $(".fc-content").parent().attr("style", "overflow:visible !important");
     }
 
     function Calendar(element, options, eventSources) {
@@ -283,7 +279,7 @@
                 markEventsDirty();
                 renderView(inc);
             }
-            updateSheduleWidth(content, options,currentView.name);
+            updateSheduleWidth(content, options);
         }
 
 
@@ -348,6 +344,11 @@
         // TODO: improve view switching (still weird transition in IE, and FF has whiteout problem)
 
         function changeView(newViewName) {
+            if (newViewName != 'agendaDay' && options.periodic) {
+                $(".fc-header-left").fadeOut();
+            } else {
+                $(".fc-header-left").fadeIn();
+            }
             if (!currentView || newViewName != currentView.name) {
                 ignoreWindowResize++; // because setMinHeight might change the height before render (and subsequently setSize) is reached
 
@@ -365,7 +366,7 @@
                 }
                 content.css('overflow-x', 'hidden');
 
-                updateSheduleWidth(content,options,newViewName);
+                updateSheduleWidth(content, options);
 
                 currentView = viewInstances[newViewName];
                 if (currentView) {
@@ -724,12 +725,21 @@
         function render() {
             tm = options.theme ? 'ui' : 'fc';
             var sections = options.header;
-            if (sections) {
+            if (sections && !options.periodic) {
                 element = $("<table class='fc-header' style='width:100%; margin: 0px auto'/>")
                     .append(
                         $("<tr/>")
                             .append(renderSection('left'))
                             .append(renderSection('center'))
+                            .append(renderSection('right'))
+                    );
+                return element;
+            }
+            if (sections && options.periodic) {
+                element = $("<table class='fc-header' style='width:100%; margin: 0px auto'/>")
+                    .append(
+                        $("<tr/>")
+                            .append(renderSection('left'))
                             .append(renderSection('right'))
                     );
                 return element;
@@ -3432,9 +3442,11 @@
             var slotTableTop = slotContent.offset().top;
             var slotScrollerTop = slotScroller.offset().top;
             var slotScrollerBottom = slotScrollerTop + slotScroller.outerHeight();
+
             function constrain(n) {
                 return Math.max(slotScrollerTop, Math.min(slotScrollerBottom, n));
             }
+
             for (var i = 0; i < slotCnt; i++) {
                 rows.push([
                     constrain(slotTableTop + slotHeight * i),
@@ -5278,6 +5290,7 @@
             event.pageY = event.originalEvent.pageY;
         }
     }
+
     function HorizontalPositionCache(getElement) {
 
         var t = this,
