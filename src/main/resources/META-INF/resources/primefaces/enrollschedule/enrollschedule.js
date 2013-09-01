@@ -3844,10 +3844,14 @@
 
 
         // renders events in the 'time slots' at the bottom
+        var hoursWidthPercentage = null;
 
         function renderSlotSegs(segs, modifiedEventId) {
-            var hoursWidthPercentage=$('.fc-agenda-axis.ui-widget-header').outerWidth()*100/$('.fc-content').outerWidth();
-            $('.fc-agenda-axis').width(hoursWidthPercentage+'%');
+            if (!hoursWidthPercentage) {
+                //compute once
+                hoursWidthPercentage = $('.fc-agenda-axis.ui-widget-header:visible').outerWidth() * 100 / $('.fc-content').outerWidth();
+            }
+            $('.fc-agenda-axis:visible').width(hoursWidthPercentage + '%');
 
             var i, segCnt = segs.length, seg,
                 event,
@@ -3913,7 +3917,7 @@
 
 
                 availWidth = $(".fc-col" + seg.col + ':visible').width();
-                leftmost = $(".fc-col" + seg.col + ':visible').position().left;
+                leftmost = $(".fc-col" + seg.col + ':visible').position().left + 3;//+3 why not!
 
                 if (levelI) {
                     // indented and thin
