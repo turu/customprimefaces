@@ -3846,8 +3846,8 @@
         // renders events in the 'time slots' at the bottom
 
         function renderSlotSegs(segs, modifiedEventId) {
-
-            $('.fc-agenda-axis').width('3%');
+            var hoursWidthPercentage = 5;     //todo calculate this
+            $('.fc-agenda-axis').width(hoursWidthPercentage+'%');
 
             var i, segCnt = segs.length, seg,
                 event,
@@ -3888,7 +3888,7 @@
             var iter = 5;
             var sum = 0;
             while (iter--) {
-                $(".fc-col" + iter + ':visible').width((100 - 3) / 5 + '%');
+                $(".fc-col" + iter + ':visible').width((100 - hoursWidthPercentage) / 5 + '%');
                 if ($(".fc-col" + iter).is(':visible')) {
                     maxInCol[iter] += 1;
                     sum += maxInCol[iter];
@@ -3898,7 +3898,7 @@
             }
             iter = 5;
             while (iter--) {
-                $(".fc-col" + iter + ':visible').width(((97 * maxInCol[iter]) / sum) + '%');
+                $(".fc-col" + iter + ':visible').width((((100 - hoursWidthPercentage) * maxInCol[iter]) / sum) + '%');
             }
 
             // calculate position/dimensions, create html
@@ -3913,7 +3913,7 @@
 
 
                 availWidth = $(".fc-col" + seg.col + ':visible').width();
-                leftmost = $(".fc-col" + seg.col + ':visible').offset().left;
+                leftmost = $(".fc-col" + seg.col + ':visible').position().left;
 
                 if (levelI) {
                     // indented and thin
