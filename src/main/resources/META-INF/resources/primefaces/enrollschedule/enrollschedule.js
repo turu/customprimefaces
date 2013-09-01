@@ -3846,7 +3846,7 @@
         // renders events in the 'time slots' at the bottom
 
         function renderSlotSegs(segs, modifiedEventId) {
-            var hoursWidthPercentage = 5;     //todo calculate this
+            var hoursWidthPercentage=$('.fc-agenda-axis.ui-widget-header').outerWidth()*100/$('.fc-content').outerWidth();
             $('.fc-agenda-axis').width(hoursWidthPercentage+'%');
 
             var i, segCnt = segs.length, seg,
