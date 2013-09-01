@@ -3847,6 +3847,8 @@
 
         function renderSlotSegs(segs, modifiedEventId) {
 
+            $('.fc-agenda-axis').width('3%');
+
             var i, segCnt = segs.length, seg,
                 event,
                 classes,
@@ -3876,6 +3878,28 @@
                 dis = 1;
                 dit = 0;
             }
+            //caclulate column proportions
+            var maxInCol = [0, 0, 0, 0, 0];
+            for (i = 0; i < segCnt; i++) {
+                if (segs[i].level > maxInCol[segs[i].col]) {
+                    maxInCol[segs[i].col] = segs[i].level;
+                }
+            }
+            var iter = 5;
+            var sum = 0;
+            while (iter--) {
+                $(".fc-col" + iter + ':visible').width((100 - 3) / 5 + '%');
+                if ($(".fc-col" + iter).is(':visible')) {
+                    maxInCol[iter] += 1;
+                    sum += maxInCol[iter];
+                } else {
+                    maxInCol[iter] = 0;
+                }
+            }
+            iter = 5;
+            while (iter--) {
+                $(".fc-col" + iter + ':visible').width(((97 * maxInCol[iter]) / sum) + '%');
+            }
 
             // calculate position/dimensions, create html
             for (i = 0; i < segCnt; i++) {
@@ -3886,9 +3910,11 @@
                 colI = seg.col;
                 levelI = seg.level;
                 forward = seg.forward || 0;
-                leftmost = colContentLeft(colI * dis + dit);
-                availWidth = colContentRight(colI * dis + dit) - leftmost;
-                //availWidth = Math.min(availWidth-6, availWidth*.95); // CHANGED: Pointless tinkering
+
+
+                availWidth = $(".fc-col" + seg.col + ':visible').width();
+                leftmost = $(".fc-col" + seg.col + ':visible').offset().left;
+
                 if (levelI) {
                     // indented and thin
                     outerWidth = availWidth / (levelI + forward + 1) - 2;
