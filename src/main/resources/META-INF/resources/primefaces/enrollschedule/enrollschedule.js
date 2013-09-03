@@ -306,6 +306,20 @@
             if (!bodyVisible()) {
                 lateRender();
             }
+
+            $('.fc-content').resizable({
+                start: function(e, ui) {
+                },
+                resize: function(e, ui) {
+                    options.weekViewWidth=ui.size.width;
+                    render();
+                },
+                stop: function(e, ui) {
+                    $('.fc-content').height(ui.originalSize.height);
+                    options.weekViewWidth=ui.size.width;
+                    render();
+                }
+            });
         }
 
 
@@ -3842,16 +3856,12 @@
             }
         }
 
-
         // renders events in the 'time slots' at the bottom
-        var hoursWidthPercentage = null;
-
         function renderSlotSegs(segs, modifiedEventId) {
-            if (!hoursWidthPercentage) {
-                //compute once
-                hoursWidthPercentage = $('.fc-agenda-axis.ui-widget-header:visible').outerWidth() * 100 / $('.fc-content').outerWidth();
-            }
-            $('.fc-agenda-axis:visible').width(hoursWidthPercentage + '%');
+
+            //timeline column width fix
+            $('th.fc-agenda-axis.ui-widget-header:visible').width('30px');
+            var hoursWidthPercentage = 3000/$('.fc-content').width();
 
             var i, segCnt = segs.length, seg,
                 event,
@@ -3892,7 +3902,6 @@
             var iter = 5;
             var sum = 0;
             while (iter--) {
-                $(".fc-col" + iter + ':visible').width((100 - hoursWidthPercentage) / 5 + '%');
                 if ($(".fc-col" + iter).is(':visible')) {
                     maxInCol[iter] += 1;
                     sum += maxInCol[iter];
@@ -3903,6 +3912,8 @@
             iter = 5;
             while (iter--) {
                 $(".fc-col" + iter + ':visible').width((((100 - hoursWidthPercentage) * maxInCol[iter]) / sum) + '%');
+                // percent into px
+                $(".fc-col" + iter + ':visible').width($(".fc-col" + iter + ':visible').width());
             }
 
             // calculate position/dimensions, create html
@@ -3917,7 +3928,7 @@
 
 
                 availWidth = $(".fc-col" + seg.col + ':visible').width();
-                leftmost = $(".fc-col" + seg.col + ':visible').position().left + 3;//+3 why not!
+                leftmost = $(".fc-col" + seg.col + ':visible').position().left + 2;//+3 why not!
 
                 if (levelI) {
                     // indented and thin
