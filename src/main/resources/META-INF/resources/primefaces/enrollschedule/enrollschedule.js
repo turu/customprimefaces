@@ -202,6 +202,9 @@
             $(".fc-header").width($(".fc-content").width());
         }
         $(".fc-content").parent().attr("style", "overflow:visible !important");
+
+        // place for 'grabbing' resizing border
+        $('body').css('min-width',$(".fc-content").width()+20+'px')
     }
 
     function Calendar(element, options, eventSources) {
@@ -383,6 +386,7 @@
                 updateSheduleWidth(content, options);
 
                 currentView = viewInstances[newViewName];
+                content.css('overflow-x', '');
                 if (currentView) {
                     currentView.element.show();
                 } else {
@@ -401,7 +405,6 @@
 
                 renderView(); // after height has been set, will make absoluteViewElement's position=relative, then set to null
 
-                content.css('overflow-x', '');
                 if (oldView) {
                     setMinHeight(content, 1);
                 }
@@ -3900,18 +3903,18 @@
                 }
             }
             var iter = 5;
-            var sum = 0;
+            var subcolumCount = 0;
             while (iter--) {
                 if ($(".fc-col" + iter).is(':visible')) {
                     maxInCol[iter] += 1;
-                    sum += maxInCol[iter];
+                    subcolumCount += maxInCol[iter];
                 } else {
                     maxInCol[iter] = 0;
                 }
             }
             iter = 5;
             while (iter--) {
-                $(".fc-col" + iter + ':visible').width((((100 - hoursWidthPercentage) * maxInCol[iter]) / sum) + '%');
+                $(".fc-col" + iter + ':visible').width((((100 - hoursWidthPercentage) * maxInCol[iter]) / subcolumCount) + '%');
                 // percent into px
                 $(".fc-col" + iter + ':visible').width($(".fc-col" + iter + ':visible').width());
             }
