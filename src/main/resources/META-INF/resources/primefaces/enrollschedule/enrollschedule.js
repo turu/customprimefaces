@@ -204,7 +204,7 @@
         $(".fc-content").parent().attr("style", "overflow:visible !important");
 
         // place for 'grabbing' resizing border
-        $('body').css('min-width',$(".fc-content").width()+20+'px')
+        $('body').css('min-width', $(".fc-content").width() + 20 + 'px')
     }
 
     function Calendar(element, options, eventSources) {
@@ -311,15 +311,15 @@
             }
 
             $('.fc-content').resizable({
-                start: function(e, ui) {
+                start: function (e, ui) {
                 },
-                resize: function(e, ui) {
-                    options.weekViewWidth=ui.size.width;
+                resize: function (e, ui) {
+                    options.weekViewWidth = ui.size.width;
                     render();
                 },
-                stop: function(e, ui) {
+                stop: function (e, ui) {
                     $('.fc-content').height(ui.originalSize.height);
-                    options.weekViewWidth=ui.size.width;
+                    options.weekViewWidth = ui.size.width;
                     render();
                 }
             });
@@ -738,10 +738,62 @@
         var element = $([]);
         var tm;
 
+        var x, y;
+
+        function resizeHelper(ev) {
+            var _x = x, _y = y, _w = ev.pageX - x, _h = ev.pageY - y;
+
+            if (ev.pageY - y < 0) {
+                _y = ev.pageY;
+                _h = y - ev.pageY;
+            }
+            if (ev.pageX - x < 0) {
+                _x = ev.pageX;
+                _w = x - ev.pageX;
+            }
+            $("#magic").offset({top: _y, left: _x});
+            $("#magic").height(_h);
+            $("#magic").width(_w);
+        }
+
+        function drawImpossibility(ev) {
+            x = ev.pageX;
+            y = ev.pageY;
+            $(".fc-content").on('mousemove', resizeHelper);
+            $("#magic").show();
+        }
+
+        function drawImpossibilityHandler() {
+            $(document).on('mousedown', drawImpossibility);
+
+            $(".fc-content").on('mouseup', function (ev) {
+                $(document).off('mousedown', drawImpossibility);
+                $(".fc-content").off('mousemove', resizeHelper);
+                var magic = $("#magic");
+                var _x = magic.offset().left, _y = magic.offset().top;
+                var _w = magic.width(), _h = magic.height();
+
+                magic.fadeOut();
+                console.log('now we calculate shit & fire event');
+                var filtered = document.segs.filter(function (el) {
+                    var element = $(el.element);
+                    var x = element.offset().left, y = element.offset().top;
+                    var w = element.width(), h = element.height();
+
+                    return !(y + h <= _y || _y + _h <= y || x + w <= _x || _x + _w <= x);
+                });
+                alert(filtered.map(function (el) {
+                    return el.event.title + el.event.teacher + el.event.start;
+                }));
+            });
+
+        }
+
 
         function render() {
             tm = options.theme ? 'ui' : 'fc';
             var sections = options.header;
+            options.header.right = 'drawImpossibility, ' + options.header.right;
             if (sections && !options.periodic) {
                 element = $("<table class='fc-header' style='width:100%; margin: 0px auto'/>")
                     .append(
@@ -750,7 +802,6 @@
                             .append(renderSection('center'))
                             .append(renderSection('right'))
                     );
-                return element;
             }
             if (sections && options.periodic) {
                 element = $("<table class='fc-header' style='width:100%; margin: 0px auto'/>")
@@ -759,8 +810,8 @@
                             .append(renderSection('left'))
                             .append(renderSection('right'))
                     );
-                return element;
             }
+            return element;
         }
 
 
@@ -787,7 +838,12 @@
                             prevButton = null;
                         } else {
                             var buttonClick;
-                            if (calendar[buttonName]) {
+                            if (buttonName == 'drawImpossibility') {
+                                buttonClick = drawImpossibilityHandler;
+                                $('.fc-content').append(
+                                    '<div id="magic" style="background-color:black;opacity:0.3;' +
+                                        'position:absolute;z-index:100"></div>');
+                            } else if (calendar[buttonName]) {
                                 buttonClick = calendar[buttonName]; // calendar method
                             }
                             else if (fcViews[buttonName]) {
@@ -797,8 +853,12 @@
                                 };
                             }
                             if (buttonClick) {
-                                var icon = options.theme ? smartProperty(options.buttonIcons, buttonName) : null; // why are we using smartProperty here?
-                                var text = smartProperty(options.buttonText, buttonName); // why are we using smartProperty here?
+                                if (buttonName != 'drawImpossibility') {
+                                    var icon = options.theme ? smartProperty(options.buttonIcons, buttonName) : null; // why are we using smartProperty here?
+                                    var text = smartProperty(options.buttonText, buttonName); // why are we using smartProperty here?
+                                } else {
+                                    text = 'Mark Impossibility'
+                                }
                                 var button = $(
                                     "<span class='fc-button fc-button-" + buttonName + " " + tm + "-state-default'>" +
                                         "<span class='fc-button-inner'>" +
@@ -3864,7 +3924,7 @@
 
             //timeline column width fix
             $('th.fc-agenda-axis.ui-widget-header:visible').width('30px');
-            var hoursWidthPercentage = 3000/$('.fc-content').width();
+            var hoursWidthPercentage = 3000 / $('.fc-content').width();
 
             var i, segCnt = segs.length, seg,
                 event,
@@ -4024,6 +4084,7 @@
                     trigger('eventAfterRender', event, event, eventElement);
                 }
             }
+            document.segs = segs;
 
         }
 
