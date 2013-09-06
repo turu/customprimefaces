@@ -722,6 +722,7 @@
 
     function Header(calendar, options) {
         var t = this;
+        options.header.right = 'drawImpossibility, ' + options.header.right;
 
 
         // exports
@@ -751,49 +752,41 @@
                 _x = ev.pageX;
                 _w = x - ev.pageX;
             }
-            $("#magic").offset({top: _y, left: _x});
-            $("#magic").height(_h);
-            $("#magic").width(_w);
+            $("#multiElementSelectorDiv").offset({top: _y, left: _x});
+            $("#multiElementSelectorDiv").height(_h);
+            $("#multiElementSelectorDiv").width(_w);
         }
 
         function drawImpossibility(ev) {
             x = ev.pageX;
             y = ev.pageY;
             $(".fc-content").on('mousemove', resizeHelper);
-            $("#magic").show();
+            $("#multiElementSelectorDiv").show();
+            $("#multiElementSelectorDiv").height(0);
+            $("#multiElementSelectorDiv").width(0);
+        }
+
+        function selectedImposibilityArea(ev) {
+            $(document).off('mousedown', drawImpossibility);
+            $(".fc-content").off('mousemove', resizeHelper);
+
+
+            //console.log('now we calculate shit & fire event');
+            document.calendar = calendar;
+            multiEventDialog.show();
+
+            $(".fc-content").off('mouseup', selectedImposibilityArea);
         }
 
         function drawImpossibilityHandler() {
             $(document).on('mousedown', drawImpossibility);
-
-            $(".fc-content").on('mouseup', function (ev) {
-                $(document).off('mousedown', drawImpossibility);
-                $(".fc-content").off('mousemove', resizeHelper);
-                var magic = $("#magic");
-                var _x = magic.offset().left, _y = magic.offset().top;
-                var _w = magic.width(), _h = magic.height();
-
-                magic.fadeOut();
-                console.log('now we calculate shit & fire event');
-                var filtered = document.segs.filter(function (el) {
-                    var element = $(el.element);
-                    var x = element.offset().left, y = element.offset().top;
-                    var w = element.width(), h = element.height();
-
-                    return !(y + h <= _y || _y + _h <= y || x + w <= _x || _x + _w <= x);
-                });
-                alert(filtered.map(function (el) {
-                    return el.event.title + el.event.teacher + el.event.start;
-                }));
-            });
-
+            $(".fc-content").on('mouseup', selectedImposibilityArea);
         }
 
 
         function render() {
             tm = options.theme ? 'ui' : 'fc';
             var sections = options.header;
-            options.header.right = 'drawImpossibility, ' + options.header.right;
             if (sections && !options.periodic) {
                 element = $("<table class='fc-header' style='width:100%; margin: 0px auto'/>")
                     .append(
@@ -841,7 +834,7 @@
                             if (buttonName == 'drawImpossibility') {
                                 buttonClick = drawImpossibilityHandler;
                                 $('.fc-content').append(
-                                    '<div id="magic" style="background-color:black;opacity:0.3;' +
+                                    '<div id="multiElementSelectorDiv" onclick="$(this).fadeOut()" style="background-color:black;opacity:0.3;' +
                                         'position:absolute;z-index:100"></div>');
                             } else if (calendar[buttonName]) {
                                 buttonClick = calendar[buttonName]; // calendar method
@@ -1664,7 +1657,7 @@
             }
         }
         return res;
-    };
+    }
 
 
     var dateFormatters = {
@@ -1702,40 +1695,40 @@
             return o.dayNamesShort[d.getDay()]
         },
         dddd: function (d, o) {
-            return o.dayNames[d.getDay()]
+            return o.dayNames[d.getDay()];
         },
         M: function (d) {
-            return d.getMonth() + 1
+            return d.getMonth() + 1;
         },
         MM: function (d) {
-            return zeroPad(d.getMonth() + 1)
+            return zeroPad(d.getMonth() + 1);
         },
         MMM: function (d, o) {
-            return o.monthNamesShort[d.getMonth()]
+            return o.monthNamesShort[d.getMonth()];
         },
         MMMM: function (d, o) {
-            return o.monthNames[d.getMonth()]
+            return o.monthNames[d.getMonth()];
         },
         yy: function (d) {
-            return (d.getFullYear() + '').substring(2)
+            return (d.getFullYear() + '').substring(2);
         },
         yyyy: function (d) {
-            return d.getFullYear()
+            return d.getFullYear();
         },
         t: function (d) {
-            return d.getHours() < 12 ? 'a' : 'p'
+            return d.getHours() < 12 ? 'a' : 'p';
         },
         tt: function (d) {
-            return d.getHours() < 12 ? 'am' : 'pm'
+            return d.getHours() < 12 ? 'am' : 'pm';
         },
         T: function (d) {
-            return d.getHours() < 12 ? 'A' : 'P'
+            return d.getHours() < 12 ? 'A' : 'P';
         },
         TT: function (d) {
-            return d.getHours() < 12 ? 'AM' : 'PM'
+            return d.getHours() < 12 ? 'AM' : 'PM';
         },
         u: function (d) {
-            return formatDate(d, "yyyy-MM-dd'T'HH:mm:ss'Z'")
+            return formatDate(d, "yyyy-MM-dd'T'HH:mm:ss'Z'");
         },
         S: function (d) {
             var date = d.getDate();
@@ -5501,7 +5494,7 @@ PrimeFaces.widget.EnrollSchedule = PrimeFaces.widget.BaseWidget.extend({
                     dateSelectBehavior.call(_self, dayDate, ext);
                 }
             }
-        }
+        };
 
         this.cfg.eventClick = function (calEvent, jsEvent, view) {
             if (_self.cfg.behaviors) {
@@ -5516,7 +5509,24 @@ PrimeFaces.widget.EnrollSchedule = PrimeFaces.widget.BaseWidget.extend({
                     eventSelectBehavior.call(_self, calEvent, ext);
                 }
             }
-        }
+        };
+
+        this.cfg.eventMultiImpossible = function (calEvents) {
+            if (_self.cfg.behaviors) {
+                var eventSelectBehavior = _self.cfg.behaviors['eventMultiImpossible'];
+                if (eventSelectBehavior) {
+                    var ext = {
+                        params: [
+                            {name: _self.id + '_selectedEventIds', value: this.map(function (el) {
+                                return el.id;
+                            })}
+                        ]
+                    };
+
+                    eventSelectBehavior.call(_self, calEvents, ext);
+                }
+            }
+        };
 
         this.cfg.eventDrop = function (calEvent, dayDelta, minuteDelta, allDay, revertFunc, jsEvent, ui, view) {
             if (_self.cfg.behaviors) {
@@ -5533,7 +5543,7 @@ PrimeFaces.widget.EnrollSchedule = PrimeFaces.widget.BaseWidget.extend({
                     eventMoveBehavior.call(_self, calEvent, ext);
                 }
             }
-        }
+        };
 
         this.cfg.eventResize = function (calEvent, dayDelta, minuteDelta, revertFunc, jsEvent, ui, view) {
             if (_self.cfg.behaviors) {
@@ -5605,6 +5615,24 @@ PrimeFaces.widget.EnrollSchedule = PrimeFaces.widget.BaseWidget.extend({
 
     update: function () {
         this.jqc.fullCalendar('refetchEvents');
+    },
+
+    handleMultiImpossible: function () {
+
+        var multiElementSelectorDiv = $("#multiElementSelectorDiv");
+        var _x = multiElementSelectorDiv.offset().left, _y = multiElementSelectorDiv.offset().top;
+        var _w = multiElementSelectorDiv.width(), _h = multiElementSelectorDiv.height();
+        document.calendar.trigger('eventMultiImpossible', document.segs.filter(function (el) {
+            var element = $(el.element);
+            var x = element.offset().left, y = element.offset().top;
+            var w = element.width(), h = element.height();
+
+            return !(y + h <= _y || _y + _h <= y || x + w <= _x || _x + _w <= x);
+        }).map(function (el) {
+                return el.event;
+            })
+        );
+        multiElementSelectorDiv.fadeOut();
     }
 
 });
