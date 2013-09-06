@@ -10,7 +10,6 @@ import java.util.TimeZone;
 import javax.faces.component.UIComponent;
 import javax.faces.event.FacesEvent;
 import javax.faces.event.AjaxBehaviorEvent;
-
 import org.primefaces.util.Constants;
 import org.primefaces.event.SelectEvent;
 import org.primefaces.event.EnrollScheduleEntryMoveEvent;
@@ -18,11 +17,9 @@ import org.primefaces.event.EnrollScheduleEntryResizeEvent;
 import org.primefaces.event.MultiImpossibleEvent;
 import org.primefaces.model.EnrollScheduleModel;
 import org.primefaces.model.EnrollScheduleEvent;
-
 import java.util.StringTokenizer;
 import java.util.List;
 import java.util.LinkedList;
-
 import org.primefaces.event.MultiImpossibleEvent;
 
 private static final Collection<String>EVENT_NAMES=Collections.unmodifiableCollection(Arrays.asList("dateSelect","eventSelect","eventMultiImpossible","eventMove","eventResize"));
