@@ -722,7 +722,6 @@
 
     function Header(calendar, options) {
         var t = this;
-        options.header.right = 'drawImpossibility, ' + options.header.right;
 
 
         // exports
