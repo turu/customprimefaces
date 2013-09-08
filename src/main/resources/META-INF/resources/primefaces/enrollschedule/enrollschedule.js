@@ -779,6 +779,9 @@
 
         function drawImpossibilityHandler() {
             $(document).on('mousedown', drawImpossibility);
+            tm = options.theme ? 'ui' : 'fc';
+            $('.fc-button-drawImpossibility').addClass(tm + '-state-active');
+            document.eventNotSelectable=true;
             $(".fc-content").on('mouseup', selectedImposibilityArea);
         }
 
@@ -786,20 +789,12 @@
         function render() {
             tm = options.theme ? 'ui' : 'fc';
             var sections = options.header;
-            if (sections && !options.periodic) {
+            if (sections) {
                 element = $("<table class='fc-header' style='width:100%; margin: 0px auto'/>")
                     .append(
                         $("<tr/>")
                             .append(renderSection('left'))
                             .append(renderSection('center'))
-                            .append(renderSection('right'))
-                    );
-            }
-            if (sections && options.periodic) {
-                element = $("<table class='fc-header' style='width:100%; margin: 0px auto'/>")
-                    .append(
-                        $("<tr/>")
-                            .append(renderSection('left'))
                             .append(renderSection('right'))
                     );
             }
@@ -833,7 +828,8 @@
                             if (buttonName == 'drawImpossibility') {
                                 buttonClick = drawImpossibilityHandler;
                                 $('.fc-content').append(
-                                    '<div id="multiElementSelectorDiv" onclick="$(this).fadeOut()" style="background-color:black;opacity:0.3;' +
+                                    '<div id="multiElementSelectorDiv" onclick="schedule.leaveMultiImpossibleForm();"' +
+                                        ' style="background-color:black;opacity:0.3;' +
                                         'position:absolute;z-index:100"></div>');
                             } else if (calendar[buttonName]) {
                                 buttonClick = calendar[buttonName]; // calendar method
@@ -5496,7 +5492,7 @@ PrimeFaces.widget.EnrollSchedule = PrimeFaces.widget.BaseWidget.extend({
         };
 
         this.cfg.eventClick = function (calEvent, jsEvent, view) {
-            if (_self.cfg.behaviors) {
+            if (_self.cfg.behaviors && !document.eventNotSelectable) {
                 var eventSelectBehavior = _self.cfg.behaviors['eventSelect'];
                 if (eventSelectBehavior && calEvent.interactive == "true") {
                     var ext = {
@@ -5616,6 +5612,13 @@ PrimeFaces.widget.EnrollSchedule = PrimeFaces.widget.BaseWidget.extend({
         this.jqc.fullCalendar('refetchEvents');
     },
 
+    leaveMultiImpossibleForm: function () {
+        $('.fc-button-drawImpossibility').removeClass('fc-state-active');
+        $('.fc-button-drawImpossibility').removeClass('ui-state-active');
+        document.eventNotSelectable=false;
+        $("#multiElementSelectorDiv").fadeOut();
+    },
+
     handleMultiImpossible: function () {
 
         var multiElementSelectorDiv = $("#multiElementSelectorDiv");
@@ -5631,7 +5634,7 @@ PrimeFaces.widget.EnrollSchedule = PrimeFaces.widget.BaseWidget.extend({
                 return el.event;
             })
         );
-        multiElementSelectorDiv.fadeOut();
+        this.leaveMultiImpossibleForm();
     }
 
 });
