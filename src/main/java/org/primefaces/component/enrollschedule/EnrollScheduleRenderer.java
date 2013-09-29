@@ -93,6 +93,7 @@ public class EnrollScheduleRenderer extends CoreRenderer {
                 writer.write(",\"activityType\":\"" + event.getActivityType() + "\"");
                 writer.write(",\"interactive\":\"" + event.isInteractive() + "\"");
                 writer.write(",\"showPoints\":\"" + event.isShowPoints() + "\"");
+                writer.write(",\"weekType\":\"" + event.getWeekType() + "\"");
 
                 writer.write("}");
 

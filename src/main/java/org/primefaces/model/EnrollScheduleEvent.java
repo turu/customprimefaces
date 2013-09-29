@@ -24,4 +24,6 @@ public interface EnrollScheduleEvent extends ScheduleEvent {
     Boolean isInteractive();
 
     Boolean isShowPoints();
+
+    String getWeekType();
 }

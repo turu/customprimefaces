@@ -1184,6 +1184,7 @@
                     e.activityType = event.activityType;
                     e.interactive = event.interactive;
                     e.showPoints = event.showPoints;
+                    e.weekType = event.weekType;
                     normalizeEvent(e);
                 }
             }
@@ -4114,6 +4115,7 @@
                     "<div class='fc-event-head fc-event-skin'" + skinCssAttr + ">" +
                     "<div class='fc-event-time'>" +
                     htmlEscape(formatDates(event.start, event.end, opt('timeFormat'))) +
+                    (event.weekType != "ALL" ? " " + event.weekType : "") +
                     "</div>" +
                     "</div>" +
                     "<div class='fc-event-content'>" +

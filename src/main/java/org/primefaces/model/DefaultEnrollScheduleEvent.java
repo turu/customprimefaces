@@ -42,6 +42,8 @@ public class DefaultEnrollScheduleEvent implements EnrollScheduleEvent, Serializ
 
     private boolean showPoints = true;
 
+    private String weekType;
+
 
     public DefaultEnrollScheduleEvent() {}
 
@@ -70,6 +72,14 @@ public class DefaultEnrollScheduleEvent implements EnrollScheduleEvent, Serializ
         this.startDate = start;
         this.endDate = end;
         this.data = data;
+    }
+
+    public String getWeekType() {
+        return weekType;
+    }
+
+    public void setWeekType(String weekType) {
+        this.weekType = weekType;
     }
 
     public String getId() {
