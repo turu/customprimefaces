@@ -763,6 +763,7 @@ document.eventNotSelectable = false;
             $("#multiElementSelectorDiv").show();
             $("#multiElementSelectorDiv").height(0);
             $("#multiElementSelectorDiv").width(0);
+            $(".fc-content").on('mouseup', selectedImposibilityArea);
         }
 
         function selectedImposibilityArea(ev) {
@@ -785,7 +786,6 @@ document.eventNotSelectable = false;
                 tm = options.theme ? 'ui' : 'fc';
                 $('.fc-button-drawImpossibility').addClass(tm + '-state-active');
                 document.eventNotSelectable = true;
-                $(".fc-content").on('mouseup', selectedImposibilityArea);
             } else {
                 $(document).enableSelection()
                 $(".fc-content").off('mousedown', drawImpossibility);
