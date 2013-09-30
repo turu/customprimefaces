@@ -14,7 +14,7 @@
  * Date:
  *
  */
-
+document.eventNotSelectable = false;
 (function ($, undefined) {
 
 
@@ -766,7 +766,8 @@
         }
 
         function selectedImposibilityArea(ev) {
-            $(document).off('mousedown', drawImpossibility);
+            $(document).disableSelection()
+            $(".fc-content").off('mousedown', drawImpossibility);
             $(".fc-content").off('mousemove', resizeHelper);
 
 
@@ -778,11 +779,21 @@
         }
 
         function drawImpossibilityHandler() {
-            $(document).on('mousedown', drawImpossibility);
-            tm = options.theme ? 'ui' : 'fc';
-            $('.fc-button-drawImpossibility').addClass(tm + '-state-active');
-            document.eventNotSelectable=true;
-            $(".fc-content").on('mouseup', selectedImposibilityArea);
+            if (document.eventNotSelectable == false) {
+                $(document).disableSelection()
+                $(".fc-content").on('mousedown', drawImpossibility);
+                tm = options.theme ? 'ui' : 'fc';
+                $('.fc-button-drawImpossibility').addClass(tm + '-state-active');
+                document.eventNotSelectable = true;
+                $(".fc-content").on('mouseup', selectedImposibilityArea);
+            } else {
+                $(document).enableSelection()
+                $(".fc-content").off('mousedown', drawImpossibility);
+                $('.fc-button-drawImpossibility').removeClass('fc-state-active');
+                $('.fc-button-drawImpossibility').removeClass('ui-state-active');
+                document.eventNotSelectable = false;
+                $(".fc-content").off('mouseup', selectedImposibilityArea);
+            }
         }
 
 
@@ -5615,7 +5626,7 @@ PrimeFaces.widget.EnrollSchedule = PrimeFaces.widget.BaseWidget.extend({
     leaveMultiImpossibleForm: function () {
         $('.fc-button-drawImpossibility').removeClass('fc-state-active');
         $('.fc-button-drawImpossibility').removeClass('ui-state-active');
-        document.eventNotSelectable=false;
+        document.eventNotSelectable = false;
         $("#multiElementSelectorDiv").fadeOut();
     },
 
