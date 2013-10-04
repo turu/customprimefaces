@@ -774,6 +774,7 @@ document.eventNotSelectable = false;
 
             //console.log('now we calculate shit & fire event');
             document.calendar = calendar;
+            $(document).enableSelection()
             multiEventDialog.show();
 
             $(".fc-content").off('mouseup', selectedImposibilityArea);
